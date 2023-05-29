@@ -35,7 +35,7 @@
 @media (prefers-color-scheme: light) {
   :root {
     --background-primary: #efefef;
-    --background-secondary: #439ecf;
+    --background-secondary: #648ce3;
     --color-primary: #333;
     --color-secondary: #d65e76;
     --color-green: #485e30;
@@ -75,7 +75,7 @@
 
 body.light-theme {
   --background-primary: #efefef;
-  --background-secondary: #439ecf;
+  --background-secondary: #648ce3;
   --color-primary: #343b58;
   --color-secondary: #d65e76;
   --color-green: #485e30;
@@ -265,7 +265,7 @@ button.btn::after {
 button.host,
 button.dir,
 button.dir2 {
-  font-size: inherit;
+  font-size: 0.95rem;
   padding-top: 4px;
   padding-bottom: 4px;
   color: var(--background-primary);
