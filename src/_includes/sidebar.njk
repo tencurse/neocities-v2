@@ -1,6 +1,4 @@
-{% include 'navigation.njk' %} {% if tag == 'home' %} {% include 'fetch.njk' %}
-{% endif %} {% if tags == 'posts' or tag == 'home' %} {% include 'bloglist.njk'
-%} {% endif %} {% if tags == 'posts' %} {% include 'toc.njk' %} {% endif %}
-<button class="btn btn-primary toggle-color-scheme">
-  Turn on the lights 🔆
-</button>
+{% include 'navigation.njk' %} {% if tag == 'home' or page.url == '/whoami/' %}
+{% include 'fetch.njk' %} {% endif %} {% if tag == 'home' %} {% include
+'bloglist.njk' %} {% endif %} {% if tags == 'posts' %} {% include 'toc.njk' %}
+{% endif %}

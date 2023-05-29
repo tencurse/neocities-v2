@@ -2,8 +2,57 @@
 layout: base.njk
 ---
 
-<section class="sidebar">{% include 'sidebar.njk' %}</section>
+<button class="btn btn-primary toggle-color-scheme">
+  Turn on the lights 🔆
+</button>
 <section class="terminal">
+  <p>
+    <button class="btn host"><span>kirsten@earth</span></button>
+    <button class="{{'btn dir2' if tag != 'home' else 'btn dir'}}">
+      <span>~{% if tag != 'home' %}/{{ dir }}{% endif %}</span>
+    </button>
+    ls
+  </p>
+  <nav>
+    <a href="/">index</a>
+    <a href="/whoami">about</a>
+    <a href="/blog">blog</a>
+    <a href="/changelog/">changelog</a>
+    <a href="/roadmap/">roadmap</a>
+  </nav>
+  <hr />
+  <p>
+    <button class="btn host"><span>kirsten@earth</span></button>
+    <button class="{{'btn dir2' if tag != 'home' else 'btn dir'}}">
+      <span>~{% if tag != 'home' %}/{{ dir }}{% endif %}</span>
+    </button>
+    fetch
+  </p>
+  <table class="fetch">
+    <tr>
+      <th colspan="2" class="fetch">kirsten@earth</th>
+    </tr>
+    <tr>
+      <td class="fetch">name</td>
+      <td>Kirsten</td>
+    </tr>
+    <tr>
+      <td class="fetch">pronouns</td>
+      <td>she/her</td>
+    </tr>
+    <tr>
+      <td class="fetch">kernel</td>
+      <td>11.30.199x-Sagittarius</td>
+    </tr>
+    <tr>
+      <td class="fetch">lang</td>
+      <td>[ENG,TAG]</td>
+    </tr>
+    <tr>
+      <td class="fetch">mbti</td>
+      <td>INTP</td>
+    </tr>
+  </table>
   <h1>{{ title }}</h1>
   {{ content | safe }}
 </section>
