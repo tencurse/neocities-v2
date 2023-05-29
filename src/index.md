@@ -23,12 +23,12 @@ Thanks for visiting and take care!
 {% set firstPost = postList | first%}
 <a href="{{ firstPost.url }}" class="post">{{ firstPost.data.title }}</a> <span class="post-date">{{ firstPost.page.date.toLocaleDateString('en-CA', {timeZone: 'UTC'}) }}</span>
 
-> {{ firstPost.data.excerpt }}
+> {{ firstPost.data.excerpt }} <a href="{{ firstPost.url }}">Read more →</a>
 
 {% endif %}
 
 ## Site updates
 
-**2023-05-14:** Installed TOC plugin for blog posts, made sidebar sticky
+**2023-05-15**: Extended main container to be a bit wider, adjusted kerning for `<h1>` and `<h2>` styles
 
 [See more updates](/changelog)
