@@ -7,7 +7,7 @@ A ton of tutorials have already written about this, so I won’t go into much te
 
 ## A bit of context
 
-I’ve always enjoyed playing around with code ever since high school programming classes, and even more so with making my own Tumblr themes[^1]. But Tumblr theming has always been limited, and then a few years later, I found about Neocities! It was so fascinating browsing (or surfing) around people’s handmade websites. They all had so much personality with the classic marquee text and blinkies and GIFs. I had a carrd that was pretty much the starting idea for this website which I expanded more on. (See: [Building the site from scratch](/post/))
+I’ve always enjoyed playing around with code ever since high school programming classes, and even more so with making my own Tumblr themes[^1]. But Tumblr theming has always been limited, and then a few years later, I found about Neocities! It was so fascinating browsing (or surfing) around people’s handmade websites. They all had so much personality with the classic marquee text and blinkies and GIFs. I had a carrd that was pretty much the starting idea for this website which I expanded more on. (See: [Building the site from scratch](</blog/2023-05-10 - Building the site from scratch/>))
 
 My prior knowledge with HTML/CSS/JS has armed me well enough to make a simple layout… at first. And then it became increasingly tedious to make each page consistent without any sort of templating. So much copy-pasting. Even the 404 page’s code was so verbose and unreadable simply because of the page layout (so much `<div>`s) and not because of the page content itself.
 

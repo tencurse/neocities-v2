@@ -60,7 +60,6 @@ Nested `<div>`s are valid, and honestly, they’re unavoidable when you’re wor
 - Where can we achieve a balance of a colourful website while still having contrasting colours?
 - Enter: IDE colour schemes
   - Dark theme and light theme
-
 - Can also check Accessibility issues in browser dev tools
 
 ### Responsiveness
