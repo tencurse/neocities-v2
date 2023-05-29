@@ -63,6 +63,7 @@
 :root {
   font-family: "Inconsolata LGC Markup";
   font-size: 14px;
+  box-sizing: border-box;
 }
 
 * {
@@ -349,4 +350,36 @@ td.fetch {
   font-weight: 600;
   padding-right: 0.6em;
   line-height: 1.3;
+}
+
+/* CHECKBOX */
+.todo {
+  display: grid;
+  grid-template-columns: 3em auto;
+  gap: 0.5em;
+  padding: 0 8px;
+  width: 100%;
+}
+
+.todo span {
+  text-align: left;
+  min-width: 100%;
+  padding: 2px 0;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  padding: 4px 0;
+  font: inherit;
+  color: currentColor;
+}
+
+input[type="checkbox"]:before {
+  content: "- [ ]";
+}
+
+input[type="checkbox"]:checked:before {
+  content: "- [x]";
+  color: var(--color-teal);
 }
