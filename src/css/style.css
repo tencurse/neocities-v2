@@ -115,7 +115,7 @@ footer {
 main {
   flex: 1 1 auto;
   display: grid;
-  grid-template-columns: 280px auto;
+  grid-template-columns: 280px minmax(auto, 620px);
   gap: 1em;
 }
 
@@ -126,12 +126,20 @@ main {
   align-items: center;
 }
 
+div.terminal {
+  min-width: 280px;
+  font-size: 0.9em;
+}
+
+section.terminal {
+  width: 100%;
+  padding: 4px;
+}
+
 .terminal {
   border: 1px solid currentColor;
   border-top: 4px solid currentColor;
   margin-bottom: 1em;
-  font-size: 0.9em;
-  min-width: 280px;
 }
 
 .terminal p:not(:last-child) {
@@ -149,6 +157,7 @@ main {
   text-align: center;
   gap: 1em;
   padding: 8px;
+  flex-wrap: wrap;
 }
 
 .terminal nav a {
