@@ -1,0 +1,6 @@
+{
+  "layout": "blogpage.njk",
+  "tags": "posts",
+  "templateEngineOverride": "njk,md",
+  "dir": "blog"
+}
