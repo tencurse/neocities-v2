@@ -8,10 +8,11 @@
     </button>
   </p>
   <ul>
-    {% set count = 1 %} {% for post in postList.slice(0,5) %}
+    {% set count = 1 %} {% for post in postList.slice(0,3) %}
     <li class="bloglist">
       <a href="{{ post.url }}">{{ post.data.title }}</a>{% if count == 1 %}<span
-        >{{ "NEW" if count == 1}}</span
+        class="tag"
+        >{{ "NEW!" if count == 1}}</span
       >
       {% endif %} {% set count = count + 1%} {% endfor %}
     </li>
