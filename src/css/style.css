@@ -139,7 +139,9 @@ main {
   display: flex;
   flex-direction: column;
   width: 100%;
-  align-items: center;
+  align-self: start;
+  position: sticky;
+  top: 12px;
 }
 
 div.terminal {
@@ -167,7 +169,7 @@ section.terminal {
   margin-left: 8px;
 }
 
-.terminal nav {
+.terminal nav:not(.toc) {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -206,6 +208,11 @@ section.terminal {
     display: flex;
     flex-direction: column;
     width: 100%;
+  }
+
+  .sidebar {
+    position: static;
+    top: 0;
   }
 
   .sidebar .terminal {
