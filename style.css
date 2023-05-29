@@ -58,7 +58,6 @@
 :root {
   font-family: "Inconsolata LGC Markup";
   font-size: 14px;
-  box-sizing: border-box;
 }
 
 * {
@@ -67,6 +66,7 @@
   margin: 0 auto;
   border: 0;
   line-height: 1;
+  box-sizing: border-box;
 }
 
 body.light-theme {
@@ -108,12 +108,76 @@ body {
 main,
 header,
 footer {
-  max-width: 810px;
+  max-width: 900px;
   padding: 12px;
 }
 
 main {
   flex: 1 1 auto;
+  display: grid;
+  grid-template-columns: 280px auto;
+  gap: 1em;
+}
+
+.terminal {
+  border: 1px solid currentColor;
+  border-top: 4px solid currentColor;
+  margin-bottom: 1em;
+  font-size: 0.9em;
+  min-width: 280px;
+}
+
+.terminal p:not(:last-child) {
+  margin-bottom: -4px;
+  padding-bottom: 4px;
+}
+
+.terminal table {
+  margin-left: 8px;
+}
+
+.terminal nav {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 1em;
+  padding: 8px;
+}
+
+.terminal nav a {
+  flex: 1;
+}
+
+.terminal-header {
+  padding: 2px 4px 2px 2px;
+  margin-bottom: 4px;
+  background: currentColor;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.terminal-header div {
+  width: 100%;
+}
+
+.terminal-header p {
+  color: var(--background-primary);
+  padding: 0 4px;
+  display: inline-block;
+  flex: 1;
+  cursor: default;
+}
+
+@media screen and (max-width: 810px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .terminal {
+    min-width: 340px;
+  }
 }
 
 footer {
@@ -136,11 +200,20 @@ h4 {
   color: var(--color-secondary);
 }
 
-/* h1,
-h2,
-h3 {
-  font-family: "Inter";
-} */
+h1 a,
+h2 a,
+h3 a,
+h4 a {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover {
+  color: var(--color-secondary);
+}
 
 h1 b,
 h1 strong,
@@ -226,6 +299,8 @@ a[href^="127.0.0.1"]::after {
 } */
 
 /* CUSTOM STYLES */
+
+/* TERMINAL */
 button.btn {
   font-family: "Inconsolata LGC Markup";
   font-weight: 500;
@@ -293,7 +368,7 @@ button.host::after {
 button.dir {
   cursor: default;
   padding: 0 13px;
-  margin-left: -15px;
+  margin-left: -25px;
   z-index: -10;
   position: relative;
   display: inline-block;
