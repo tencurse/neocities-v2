@@ -1,10 +1,12 @@
 const eleventyDevServer = "@11ty/eleventy-dev-server";
 const eleventyBrowsersync = "@11ty/eleventy-server-browsersync";
 const markdownIt = require("markdown-it");
+const mdAnchor = require("markdown-it-anchor");
 const mdFootnote = require("markdown-it-footnote");
 const mdTaskList = require("markdown-it-task-lists");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const externalLinks = require("@sardine/eleventy-plugin-external-links");
+const toc = require("eleventy-plugin-toc");
 
 module.exports = function (eleventyConfig) {
   let mdOptions = {
@@ -22,6 +24,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.amendLibrary("md", (mdLib) =>
     mdLib.use(mdTaskList, mdTasklistOptions)
   );
+  eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(mdAnchor));
 
   eleventyConfig.setServerOptions({
     module: eleventyBrowsersync,
@@ -43,6 +46,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addPlugin(externalLinks);
+  eleventyConfig.addPlugin(toc);
 
   eleventyConfig.addPassthroughCopy("./src/css");
   eleventyConfig.addPassthroughCopy("./src/fonts");
