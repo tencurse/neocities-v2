@@ -1,8 +1,10 @@
 ---
 title: Changelog
 dir: changelog
-layout: base.njk
+layout: mainpage.njk
 ---
+
+**2023-05-13:** Installed more 11ty plugins, added syntax highlighting (both light and dark mode, yay!), updated _About_ page, added _Blog_ page, updated sidebar with recent blog posts
 
 **2023-05-12:** Tweaked layout and CSS, added About page, updated the home page
 
@@ -19,6 +21,7 @@ layout: base.njk
 **2023-04-23:** This site was born :)
 
 ---
+
 ## Related
 
 [Roadmap](/roadmap)

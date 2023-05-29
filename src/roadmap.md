@@ -1,7 +1,7 @@
 ---
 title: To do
 dir: roadmap
-layout: base.njk
+layout: mainpage.njk
 ---
 
 _“Don’t let perfect be the enemy of good enough.”_ —some guy probably
@@ -12,15 +12,18 @@ _“Don’t let perfect be the enemy of good enough.”_ —some guy probably
 - [x] Build the sidebars using flexbox (updates, chatbox, navigation) – must be responsive
 - [x] Finalize layout and use 11ty to generate the other pages
 - [x] Use markdown for site content
-- [ ] Start a blog
-- [ ] Add a page for dev tools/resources
+- [x] Start a blog
+- [ ] Add a page for dev tools/resources?
 - [ ] Create a sitemap
 
 ## Side quests
 
-- [ ] Add list styles `<ul>` and `<ol>`
+- [x] Add list styles `<ul>` and `<ol>`
+- [x] Add `::selection` style
 - [x] Add a favicon
 - [x] Implement footnotes
+- [ ] Add a back to top button on blog pages
+- [ ] Implement a blog tagging system
 - [ ] Add more colour schemes
 - [ ] Make images and iframes responsive
 - [ ] Make a cute site button
