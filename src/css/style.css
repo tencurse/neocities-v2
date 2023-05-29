@@ -31,12 +31,15 @@
   :root {
     --background-primary: #efefef;
     --background-secondary: #648ce3;
+    --background-selection: #f9f9fc;
+    --background-plain: #e1e2e7;
     --color-primary: #333;
     --color-secondary: #d65e76;
     --color-green: #4ba016;
     --color-yellow: #b57614;
     --color-purple: #8d46d4;
     --color-teal: #16a085;
+    --color-comment: #848cb5;
   }
 }
 
@@ -45,12 +48,15 @@
   :root {
     --background-primary: #1a1b26;
     --background-secondary: #7aa2f7;
+    --background-selection: #363d55;
+    --background-plain: #24283b;
     --color-primary: #a9b1d6;
     --color-secondary: #f7768e;
     --color-green: #9ece6a;
     --color-yellow: #e0af68;
     --color-purple: #bb9af7;
     --color-teal: #70c0b1;
+    --color-comment: #565f89;
   }
 }
 
@@ -72,23 +78,29 @@
 body.light-theme {
   --background-primary: #efefef;
   --background-secondary: #648ce3;
+  --background-selection: #f9f9fc;
+  --background-plain: #e1e2e7;
   --color-primary: #343b58;
   --color-secondary: #d65e76;
   --color-green: #4ba016;
   --color-yellow: #b57614;
   --color-purple: #8d46d4;
   --color-teal: #16a085;
+  --color-comment: #848cb5;
 }
 
 body.dark-theme {
   --background-primary: #1a1b26;
   --background-secondary: #7aa2f7;
+  --background-selection: #363d55;
+  --background-plain: #24283b;
   --color-primary: #a9b1d6;
   --color-secondary: #f7768e;
   --color-green: #9ece6a;
   --color-yellow: #e0af68;
   --color-purple: #bb9af7;
   --color-teal: #70c0b1;
+  --color-comment: #565f89;
 }
 
 body {
@@ -100,6 +112,10 @@ body {
 }
 
 /* CONTAINER DEFAULTS */
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   height: 100%;
@@ -202,8 +218,9 @@ footer {
 }
 
 hr {
-  border: 1px var(--color-purple) dashed;
+  border: 1px var(--background-plain) solid;
   margin: 8px;
+  margin-top: 16px;
 }
 
 /* TYPOGRAPHY DEFAULTS */
@@ -259,8 +276,12 @@ h4 {
 
 p,
 span {
-  line-height: 1.4;
+  line-height: 1.5;
   padding: 8px;
+}
+
+span.token {
+  padding: 0px;
 }
 
 b,
@@ -285,18 +306,65 @@ a:hover {
 }
 
 code {
-  font-size: 0.8em;
   font-family: "Inconsolata LGC Markup";
-  font-weight: 500;
-  background: var(--color-primary);
-  color: var(--background-primary);
-  display: inline-block;
-  padding: 0.3em 0.6em;
-  border-radius: 5px;
 }
 
-li.footnote-item {
-  margin-left: 32px;
+ol li:not(.footnote-item),
+ul li {
+  padding: 0.25em 0;
+}
+
+li {
+  margin-right: 1em;
+  line-height: 1.5em;
+}
+
+ul li {
+  margin-left: 1.5em;
+  list-style-type: "–";
+  padding-inline-start: 1em;
+}
+
+ol {
+  padding: 8px 0;
+}
+
+ol li,
+ol li.footnote-item {
+  margin-left: 2.5em;
+}
+
+li.footnote-item:target {
+  background: var(--background-selection);
+  border-radius: 0.3em;
+}
+
+.footnote-ref a:focus {
+  outline: thin dotted;
+}
+
+::selection {
+  background: var(--background-selection);
+}
+
+blockquote {
+  border-left: 2px solid var(--color-comment);
+  margin: 12px 1.5em 8px 1.5em;
+  color: var(--color-comment);
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+blockquote p {
+  padding: 0 8px;
+}
+
+blockquote i,
+blockquote em,
+blockquote b,
+blockquote strong,
+blockquote a {
+  color: var(--color-comment);
 }
 
 /* EXTERNAL LINK ICON */
@@ -443,20 +511,6 @@ td.fetch {
 }
 
 /* CHECKBOX */
-.todo {
-  display: grid;
-  grid-template-columns: 3em auto;
-  gap: 0.5em;
-  padding: 0 8px;
-  width: 100%;
-}
-
-.todo span {
-  text-align: left;
-  min-width: 100%;
-  padding: 2px 0;
-}
-
 input[type="checkbox"] {
   -webkit-appearance: none;
   appearance: none;
@@ -474,8 +528,40 @@ input[type="checkbox"]:checked:before {
   color: var(--color-teal);
 }
 
-li.task-list-item {
+li.task-list-item,
+li.bloglist {
   margin-left: 1em;
   list-style: none;
   line-height: 1.5em;
+  padding: 0;
+}
+
+li.task-list-item::before,
+li.bloglist::before {
+  content: none;
+  padding: 0;
+}
+
+/* BLOG POSTS */
+a.post {
+  font-size: 1.3em;
+  letter-spacing: -1px;
+}
+
+.post-date {
+  font-size: 0.9em;
+  padding: 0 8px;
+}
+
+li.bloglist {
+  margin: 8px;
+}
+
+li.bloglist span {
+  display: inline;
+  padding: 0.2em 0.3em;
+  font-size: 0.9em;
+  background-color: var(--background-plain);
+  border-radius: 0.3em;
+  margin: 0 8px;
 }
