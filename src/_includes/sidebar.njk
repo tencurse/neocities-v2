@@ -1,5 +1,6 @@
 {% include 'navigation.njk' %} {% if tag == 'home' %} {% include 'fetch.njk' %}
-{% include 'updates.njk' %} {% endif %}
+{% endif %} {% if tags == 'posts' or tag == 'home' %} {% include 'bloglist.njk'
+%} {% endif %}
 <button class="btn btn-primary toggle-color-scheme">
   Turn on the lights 🔆
 </button>
