@@ -1,0 +1,19 @@
+{% set postList = collections.posts | reverse %}
+
+<div class="terminal">
+  <p>
+    <button class="btn host"><span>recent posts</span></button>
+    <button class="{{'btn dir2' if tag != 'home' else 'btn dir'}}">
+      <span>~{% if tag != 'home' %}/{{ dir }}{% endif %}</span>
+    </button>
+  </p>
+  <ul>
+    {% set count = 1 %} {% for post in postList.slice(0,5) %}
+    <li class="bloglist">
+      <a href="{{ post.url }}">{{ post.data.title }}</a>{% if count == 1 %}<span
+        >{{ "NEW" if count == 1}}</span
+      >
+      {% endif %} {% set count = count + 1%} {% endfor %}
+    </li>
+  </ul>
+</div>
