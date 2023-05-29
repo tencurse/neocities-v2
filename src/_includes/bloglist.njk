@@ -1,4 +1,4 @@
-{% set postList = collections.posts | reverse %}
+{% if collections.posts %} {% set postList = collections.posts | reverse %}
 
 <div class="terminal">
   <p>
@@ -17,3 +17,5 @@
     </li>
   </ul>
 </div>
+
+{% endif %}
