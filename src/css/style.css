@@ -1,3 +1,5 @@
+@import url(tokyonight.css);
+
 /* FONTS */
 
 @font-face {
@@ -26,40 +28,6 @@
   font-weight: 600;
 }
 
-/* LIGHT MODE CONFIG */
-@media (prefers-color-scheme: light) {
-  :root {
-    --background-primary: #efefef;
-    --background-secondary: #648ce3;
-    --background-selection: #f9f9fc;
-    --background-plain: #e1e2e7;
-    --color-primary: #333;
-    --color-secondary: #d65e76;
-    --color-green: #4ba016;
-    --color-yellow: #b57614;
-    --color-purple: #8d46d4;
-    --color-teal: #16a085;
-    --color-comment: #848cb5;
-  }
-}
-
-/* DARK MODE CONFIG */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background-primary: #1a1b26;
-    --background-secondary: #7aa2f7;
-    --background-selection: #363d55;
-    --background-plain: #24283b;
-    --color-primary: #a9b1d6;
-    --color-secondary: #f7768e;
-    --color-green: #9ece6a;
-    --color-yellow: #e0af68;
-    --color-purple: #bb9af7;
-    --color-teal: #70c0b1;
-    --color-comment: #565f89;
-  }
-}
-
 /* DEFAULT STYLES */
 :root {
   font-family: "Inconsolata LGC Markup";
@@ -73,34 +41,6 @@
   border: 0;
   line-height: 1;
   box-sizing: border-box;
-}
-
-body.light-theme {
-  --background-primary: #efefef;
-  --background-secondary: #648ce3;
-  --background-selection: #f9f9fc;
-  --background-plain: #e1e2e7;
-  --color-primary: #343b58;
-  --color-secondary: #d65e76;
-  --color-green: #4ba016;
-  --color-yellow: #b57614;
-  --color-purple: #8d46d4;
-  --color-teal: #16a085;
-  --color-comment: #848cb5;
-}
-
-body.dark-theme {
-  --background-primary: #1a1b26;
-  --background-secondary: #7aa2f7;
-  --background-selection: #363d55;
-  --background-plain: #24283b;
-  --color-primary: #a9b1d6;
-  --color-secondary: #f7768e;
-  --color-green: #9ece6a;
-  --color-yellow: #e0af68;
-  --color-purple: #bb9af7;
-  --color-teal: #70c0b1;
-  --color-comment: #565f89;
 }
 
 body {
@@ -124,14 +64,14 @@ body {
 main,
 header,
 footer {
-  max-width: 900px;
+  max-width: 700px;
   padding: 12px;
 }
 
 main {
   flex: 1 1 auto;
   display: grid;
-  grid-template-columns: 280px minmax(auto, 620px);
+  /* grid-template-columns: 280px minmax(auto, 620px); */
   gap: 1em;
 }
 
@@ -152,6 +92,8 @@ div.terminal {
 section.terminal {
   width: 100%;
   padding: 4px;
+  min-width: 0;
+  overflow: auto;
 }
 
 .terminal {
@@ -225,12 +167,17 @@ footer {
 }
 
 hr {
-  border: 1px var(--background-plain) solid;
+  border: 1px var(--background-selection) solid;
   margin: 8px;
   margin-top: 16px;
 }
 
 /* TYPOGRAPHY DEFAULTS */
+h1,
+h2 {
+  letter-spacing: -1px;
+}
+
 h1,
 h2,
 h3,
@@ -238,14 +185,14 @@ h4 {
   line-height: 1.5;
   padding: 6px;
   font-weight: 600;
-  color: var(--color-secondary);
+  color: var(--color-red);
 }
 
 h1 a,
 h2 a,
 h3 a,
 h4 a {
-  color: var(--color-secondary);
+  color: var(--color-red);
   text-decoration: none;
 }
 
@@ -253,7 +200,7 @@ h1 a:hover,
 h2 a:hover,
 h3 a:hover,
 h4 a:hover {
-  color: var(--color-secondary);
+  color: var(--color-red);
 }
 
 h1 b,
@@ -293,7 +240,7 @@ span.token {
 
 b,
 strong {
-  color: var(--background-secondary);
+  color: var(--color-blue);
   font-weight: 600;
 }
 
@@ -315,11 +262,11 @@ a:hover {
 code {
   font-family: "Inconsolata LGC Markup";
 }
-
+/* 
 ol li:not(.footnote-item),
 ul li {
   padding: 0.25em 0;
-}
+} */
 
 li {
   margin-right: 1em;
@@ -346,6 +293,10 @@ li.footnote-item:target {
   border-radius: 0.3em;
 }
 
+li.footnote-item p {
+  padding: 0.5em 0;
+}
+
 .footnote-ref a:focus {
   outline: thin dotted;
 }
@@ -355,9 +306,9 @@ li.footnote-item:target {
 }
 
 blockquote {
-  border-left: 2px solid var(--color-comment);
+  border-left: 2px solid var(--color-gray);
   margin: 12px 1.5em 8px 1.5em;
-  color: var(--color-comment);
+  color: var(--color-gray);
   font-size: 0.9em;
   font-style: italic;
 }
@@ -369,9 +320,8 @@ blockquote p {
 blockquote i,
 blockquote em,
 blockquote b,
-blockquote strong,
-blockquote a {
-  color: var(--color-comment);
+blockquote strong {
+  color: var(--color-gray);
 }
 
 /* EXTERNAL LINK ICON */
@@ -405,7 +355,7 @@ button.btn {
 }
 
 button.btn-primary {
-  background-color: var(--background-secondary);
+  background-color: var(--color-blue);
   color: var(--background-primary);
   box-shadow: 5px 5px var(--color-primary);
 }
@@ -454,7 +404,7 @@ button.host {
 
 button.host::after {
   content: "";
-  background: var(--background-secondary);
+  background: var(--color-blue);
   -webkit-clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
   clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
   z-index: -1;
@@ -473,7 +423,7 @@ button.dir {
 
 button.dir::after {
   content: "";
-  background: var(--color-secondary);
+  background: var(--color-red);
   -webkit-clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
   clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
   z-index: -1;
@@ -492,7 +442,7 @@ button.dir2 {
 
 button.dir2::after {
   content: "";
-  background: var(--color-secondary);
+  background: var(--color-red);
   -webkit-clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
   clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
   z-index: -1;
@@ -511,7 +461,7 @@ th.fetch {
 }
 
 td.fetch {
-  color: var(--color-secondary);
+  color: var(--color-red);
   font-weight: 600;
   padding-right: 0.6em;
   line-height: 1.3;
@@ -564,11 +514,11 @@ li.bloglist {
   margin: 8px;
 }
 
-li.bloglist span {
+span.tag {
   display: inline;
   padding: 0.2em 0.3em;
   font-size: 0.9em;
-  background-color: var(--background-plain);
+  background-color: var(--background-secondary);
   border-radius: 0.3em;
   margin: 0 8px;
 }
