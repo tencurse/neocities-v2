@@ -7,19 +7,19 @@ I like coding things from scratch. Mostly websites. It’s so fun to experiment 
 
 Enter: my Neocities site.
 
-sadgrl.online has a [nifty layout builder](https://sadgrl.online/projects/layout-builder/), which is honestly a great starting point. It’s responsive, customizable, easy to understand. There’s a lot more layouts and templates out there, if you know where to find them. And they’re all good enough, but for me, of course, I want something that has my *personal* touch on it. After all, that’s why I hosted my website on Neocities[^2].
+sadgrl.online has a [nifty layout builder](https://sadgrl.online/projects/layout-builder/), which is honestly a great starting point. It’s responsive, customizable, easy to understand. There’s a lot more layouts and templates out there, if you know where to find them. And they’re all good enough, but for me, of course, I want something that has my _personal_ touch on it. After all, that’s why I hosted my website on Neocities[^2].
 
 As an aside, I won’t discuss too much technical detail. Mostly the struggle was in CSS, as it usually is, and maybe I’ll make a separate post for that, but this blog will be more about the journey rather than the destination.
 
 ## Layout inspiration
 
-I am *obsessed* with customization. I can spend hours upon hours on character creation in games. I even refer to *The Sims 4* as a ‘dress-up’ game, because I would mostly play in Create–A–Sim mode, changing my Sims’ features and outfits. I have the same fervor even in my devices; my Samsung phone is customized with a different launcher and app icons.
+I am _obsessed_ with customization. I can spend hours upon hours on character creation in games. I even refer to _The Sims 4_ as a ‘dress-up’ game, because I would mostly play in Create–A–Sim mode, changing my Sims’ features and outfits. I have the same fervor even in my devices; my Samsung phone is customized with a different launcher and app icons.
 
-Ever since I stumbled upon [r/unixporn](https://www.reddit.com/r/unixporn/), I simply fell in love with *NIX systems. Of course, there’s lots of other things to love about them[^3], but the customizable aesthetic instantly won my heart. I proceeded to dual–boot my laptop(s) with Manjaro KDE (and later, XFCE) and go absolutely *ham* customizing it.
+Ever since I stumbled upon [r/unixporn](https://www.reddit.com/r/unixporn/), I simply fell in love with Linux systems. Of course, there’s lots of other things to love about them[^3], but the customizable aesthetic instantly won my heart. I proceeded to dual–boot my laptop(s) with Manjaro KDE (and later, XFCE) and go absolutely _ham_ customizing it.
 
 [INSERT SCREENSHOT HERE]
 
-In *NIX systems, the terminal is your best friend.[^4] Of course, I made mine look pretty:
+In Linux systems, the terminal is your best friend.[^4] Of course, I made mine look pretty:
 
 [INSERT SCREENSHOT]
 
@@ -35,7 +35,7 @@ For UX purposes, I omitted the username/directory after the first “terminal”
 
 ## Accessibility vs. design
 
-Speaking of UX, let’s talk about accessibility. We’re on Neocities, where websites are full of personality, sometimes at the cost of accessibility. When building this site, or any other site for that matter, I don’t like to compromise accessibility for design. It’s just as important, because we want *everyone* to see and navigate our websites, regardless if they’re conventional or unconventional ways[^6].
+Speaking of UX, let’s talk about accessibility. We’re on Neocities, where websites are full of personality, sometimes at the cost of accessibility. When building this site, or any other site for that matter, I don’t like to compromise accessibility for design. It’s just as important, because we want _everyone_ to see and navigate our websites, regardless if they’re conventional or unconventional ways[^6].
 
 In web development, there’s a few factors that affect this:
 
@@ -59,6 +59,8 @@ Nested `<div>`s are valid, and honestly, they’re unavoidable when you’re wor
 - Boring minimalist websites
 - Where can we achieve a balance of a colourful website while still having contrasting colours?
 - Enter: IDE colour schemes
+  - Dark theme and light theme
+
 - Can also check Accessibility issues in browser dev tools
 
 ### Responsiveness
@@ -78,9 +80,9 @@ We don’t have to sacrifice accessibility for a website’s personality. It is 
 [^1]: I’ll admit, I attempted to create my own at first, but it didn’t, uh, end well. It was a combination of mediocre design and cluelessness in execution.
 [^2]: There’s a lot more web hosting options out there, like Github pages (which is where my portfolio is hosted), but Neocities provides a way to explore other handcrafted personal websites. Plus, it’s free.
 [^3]: They’re mostly free and open–source.
-[^4]: Some configs even run on terminals *only*, navigating through windows using keyboard shortcuts.
+[^4]: Some configs even run on terminals _only_, navigating through windows using keyboard shortcuts.
 [^5]: Also the same theme I use for literally everything now if it’s available.
 [^6]: Like screen readers.
 [^7]: [Wiktionary definition](https://en.wiktionary.org/wiki/divitis): The practice of authoring web-page code with many div elements in place of meaningful semantic HTML elements.
-[^8]:This is also a life–saver for CSS specificity. The more semantic your HTML, the more specific you can get in your CSS.
+[^8]: This is also a life–saver for CSS specificity. The more semantic your HTML, the more specific you can get in your CSS.
 [^9]: Either that, or it would simply retain its verticality on desktops, which makes for a limited and boring design. (Or maybe I’m just an amateur?)

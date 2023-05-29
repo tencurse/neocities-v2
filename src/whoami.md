@@ -4,7 +4,7 @@ dir: whoami
 layout: mainpage.njk
 ---
 
-Howdy! I'm **Kirsten (she/her)** and I am both a woman in STEM and the arts. Software developer by day, fiction writer by (mid)night. I play the bass guitar as a hobby, largely inspired by Mitski and Arctic Monkeys. I love \*NIX systems and how endlessly customizable they are. I enjoy playing video games and watching people play video games.
+Howdy! I'm **Kirsten (she/her)** and I am both a woman in STEM and the arts. Software developer by day, fiction writer by (mid)night. I play the bass guitar as a hobby, largely inspired by Mitski and Arctic Monkeys. I love Linux systems and how endlessly customizable they are. I enjoy playing video games and watching people play video games.
 
 **I'm a proponent of open source software and the ad–free web.** Use Mozilla Firefox, install adblock of your choice, install SponsorBlock for YouTube. Support open source software and independent creators whenever you can. Dual–boot Linux, or throw away Windows altogether.[^1]
 
@@ -17,7 +17,7 @@ Howdy! I'm **Kirsten (she/her)** and I am both a woman in STEM and the arts. Sof
 
 ## About the site
 
-This mobile–friendly site is handcrafted using 11ty on Firefox. The aesthetic is inspired by \*NIX systems and the terminal.
+This mobile–friendly site is handcrafted using 11ty on Firefox. The aesthetic is inspired by Linux systems and the terminal.
 
 I will post the source code on my GitHub soon, but for now, feel free to right–click, Inspect Element or View Page Source. Everyone copy–pastes code, I assure you, but if you do, please take the time to learn what you are copy–pasting. Arm yourself with knowledge.
 
@@ -25,7 +25,7 @@ I will post the source code on my GitHub soon, but for now, feel free to right�
 
 - [VS Code](https://code.visualstudio.com/) – My trusty code editor. Free, customizable, open source. <3[^2]
 - [11ty](https://www.11ty.dev/docs/getting-started/) – Simple, lightweight static site generator. Supports a bunch of templating languages. [Here’s a blog post on my journey building this site with 11ty.](</blog/2023-05-12 - Adventures with static site generators>)
-- [agnoster ohmyzsh theme](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#agnoster) – Aesthetic inspiration for the sidebar. I also use this theme for my personal \*NIX terminal.
+- [agnoster ohmyzsh theme](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#agnoster) – Aesthetic inspiration for the sidebar. I also use this theme for my personal Linux terminal.
 - [neofetch](https://github.com/dylanaraps/neofetch) – This is what the user info sidebar in the home page references. This command has a lot of other derivatives, and [pfetch](https://github.com/dylanaraps/pfetch) is my personal favourite.
 - [r/unixporn](https://www.reddit.com/r/unixporn/) – One of the biggest things that got me to dual–boot Linux. So much pretty customization while still retaining usability (…in some cases).
 - [Tokyo Night](https://github.com/folke/tokyonight.nvim) – Colour scheme used for the website and syntax highlighting. Light theme is tweaked a little for better contrast.
