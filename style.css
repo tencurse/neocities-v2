@@ -33,9 +33,9 @@
     --background-secondary: #648ce3;
     --color-primary: #333;
     --color-secondary: #d65e76;
-    --color-green: #485e30;
+    --color-green: #4ba016;
     --color-yellow: #b57614;
-    --color-purple: #5a4a78;
+    --color-purple: #8d46d4;
     --color-teal: #16a085;
   }
 }
@@ -74,9 +74,9 @@ body.light-theme {
   --background-secondary: #648ce3;
   --color-primary: #343b58;
   --color-secondary: #d65e76;
-  --color-green: #485e30;
+  --color-green: #4ba016;
   --color-yellow: #b57614;
-  --color-purple: #5a4a78;
+  --color-purple: #8d46d4;
   --color-teal: #16a085;
 }
 
@@ -181,7 +181,7 @@ strong {
 
 i,
 em {
-  color: var(--color-teal);
+  color: var(--color-purple);
 }
 
 a,
