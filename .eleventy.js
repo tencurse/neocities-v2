@@ -3,6 +3,8 @@ const eleventyBrowsersync = "@11ty/eleventy-server-browsersync";
 const markdownIt = require("markdown-it");
 const mdFootnote = require("markdown-it-footnote");
 const mdTaskList = require("markdown-it-task-lists");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const externalLinks = require("@sardine/eleventy-plugin-external-links");
 
 module.exports = function (eleventyConfig) {
   let mdOptions = {
@@ -27,6 +29,20 @@ module.exports = function (eleventyConfig) {
     files: ["src/*"],
     logLevel: "debug",
   });
+
+  eleventyConfig.addPlugin(syntaxHighlight, {
+    lineSeparator: "\n",
+    preAttributes: {
+      tabindex: 0,
+
+      // Added in 4.1.0 you can use callback functions too
+      "data-language": function ({ language, content, options }) {
+        return language;
+      },
+    },
+  });
+
+  eleventyConfig.addPlugin(externalLinks);
 
   eleventyConfig.addPassthroughCopy("./src/css");
   eleventyConfig.addPassthroughCopy("./src/fonts");
