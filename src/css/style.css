@@ -295,6 +295,10 @@ code {
   border-radius: 5px;
 }
 
+li.footnote-item {
+  margin-left: 32px;
+}
+
 /* EXTERNAL LINK ICON */
 /* SOURCE: https://christianoliff.com/blog/styling-external-links-with-an-icon-in-css/ */
 /* a[href^="http"]::after,
@@ -462,10 +466,16 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:before {
-  content: "- [ ]";
+  content: "– [ ]";
 }
 
 input[type="checkbox"]:checked:before {
-  content: "- [x]";
+  content: "– [x]";
   color: var(--color-teal);
+}
+
+li.task-list-item {
+  margin-left: 1em;
+  list-style: none;
+  line-height: 1.5em;
 }
