@@ -1,0 +1,14 @@
+---
+layout: base.njk
+---
+
+<section class="sidebar">{% include 'sidebar.njk' %}</section>
+<section class="terminal">
+  <h1>{{ title }}</h1>
+  {% if tags == 'posts' %}
+  <p class="post-date">
+    Posted: {{ page.date.toLocaleDateString('en-CA', {timeZone: 'UTC'}) }}
+  </p>
+  <hr />
+  {% endif %} {{ content | safe }}
+</section>

@@ -9,16 +9,11 @@
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="icon" href="/img/favicon.png" type="image/png" />
     <link rel="shortcut icon" href="/img/favicon.png" type="image/png" />
+    <link rel="stylesheet" href="/css/prism.css" />
     <script src="/js/index.js"></script>
   </head>
   <body>
-    <main>
-      <section class="sidebar">{% include 'sidebar.njk' %}</section>
-      <section class="terminal">
-        <h1>{{ title }}</h1>
-        {{ content | safe }}
-      </section>
-    </main>
+    <main>{{ content | safe }}</main>
     <footer>{% include 'footer.njk' %}</footer>
   </body>
 </html>
