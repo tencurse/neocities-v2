@@ -124,12 +124,16 @@ The tutorial I linked covers more info on how this can be applied to blog posts,
 
 On the left (or up top if you’re on mobile), you can see a little box with the five most recent posts listed. The solution isn’t immediately obvious—I found out from [here](https://github.com/11ty/eleventy/issues/1046) how to do exactly that:
 
+{% raw %}
+
 ```njk
 {% set postList = collections.posts | reverse %}
 {% for post in postList.slice(0,5) %}
 ...
 {% endfor %}
 ```
+
+{% endraw %}
 
 As for date formatting, which is also a headache to deal with, I used the builtin JavaScript method of `toLocaleDateString()`. I added the option `{timeZone: 'UTC'}`, to [display the correct date](https://www.11ty.dev/docs/dates/#dates-off-by-one-day).
 
