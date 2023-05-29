@@ -40,7 +40,7 @@ For example, if I have navigation links, and I added a new page, I no longer hav
 ```njk
 <nav>
   <a href="/">index</a>
-  <a href="/whoami">about</a>
+  <a href="/about">about</a>
   <a href="/blog">blog</a>
   <a href="/changelog/">changelog</a>
   <a href="/roadmap/">roadmap</a>
@@ -94,7 +94,7 @@ Follow along this [tutorial](https://flamedfury.com/guides/11ty-homepage-neociti
 
 My project directory was on Windows instead of the WSL file system, so it was a _bit_ slow in terms of serving and building the site; [it’s a known performance issue of WSL 2](https://learn.microsoft.com/en-us/windows/wsl/compare-versions#comparing-features). I would have to re–serve it to apply the changes, and so development became kinda annoying and slower.[^4] I find that running `npm start` inside my `src/` folder fixes the issue somewhat, but any changes in subfolder files don’t trigger the reload.
 
-Initially, the page contents were in HTML files (e.g., `index.html`, `whoami.html`, etc.), which can be good enough. However, I opted to use Markdown for much easier formatting (and blog post writing). For this, I used [`markdown-it`](https://github.com/markdown-it/markdown-it). You install it the same way: `npm install markdown-it`.
+Initially, the page contents were in HTML files (e.g., `index.html`, `about.html`, etc.), which can be good enough. However, I opted to use Markdown for much easier formatting (and blog post writing). For this, I used [`markdown-it`](https://github.com/markdown-it/markdown-it). You install it the same way: `npm install markdown-it`.
 
 ## Plugins, plugins, and more plugins
 
