@@ -12,13 +12,24 @@ layout: homepage.njk
 
 # ~{% if tag != 'home' %}{{ '/' | concat: dir }}{% endif %}{% if tag == 'home' %}{{ ' ' | concat: title }}{% endif %}
 
-## Fanfiction, a.k.a. I may be cringe but I am free
+> _I may be cringe, but I am free_ —a wise dude
 
-This is an archive of my transformative fanworks. I am in the process of uploading everything on this site. If you'd like to see all my works, please go to [my AO3 account](https://archiveofourown.org/users/symmetra/works). (Link warning: Explicit content ahead.)
+This is an archive of my transformative fanworks, a.k.a., fanfiction.
+
+I am in the process of uploading everything on this site. If you'd like to see all my works, please go to [my AO3 account](https://archiveofourown.org/users/symmetra/works). (Link warning: Explicit content ahead.)
+
+{% assign ficLength = collections.fics | size %}
+{% if ficLength == 0 %}
+
+**Nothing to see here! Check back later. :^)**
+
+{% else %}
 
 Content warnings and degrees of sexual content are labeled as such, following [AO3’s system](https://archiveofourown.org/help/symbols-key.html). **Read at your own discretion.**
 
 Works are sorted by most recently published.
+
+{% endif %}
 
 </section>
 

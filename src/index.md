@@ -8,9 +8,13 @@ tag: home
 
 # ~{% if tag != 'home' %}{{ '/' | concat: dir }}{% endif %}{% if tag == 'home' %}{{ ' ' | concat: title }}{% endif %}
 
-Howdy! I'm **Kirsten (she/her)** and I am both a woman in STEM and the arts. Software developer by day, fiction writer by (mid)night.
+Howdy! I'm **Kirsten (she/her)** and I am a woman in STEM and the arts. Software developer by day, fiction writer by (mid)night.
 
-I hope to carve my own little digital garden, curated with my [thoughts](/blog) and my [works](/writing).
+I hope to create my own little digital garden{% footnoteNum %}{% footnote "Not to be confused with the [note–taking term](https://github.com/MaggieAppleton/digital-gardeners#what-is-digital-gardening) or [Zettelkasten](https://zettelkasten.de/posts/overview/), but in the future it may evolve to that!" %}, planted with my [thoughts](/blog) and my [works](/writing).
+
+Here's a [map](/sitemap), go forth and explore!
+
+Or take a look at what I'm doing [now](/now).
 
 Thanks for visiting and take care!
 
@@ -33,11 +37,15 @@ Thanks for visiting and take care!
 
 <a href="{{ firstPost.url }}">Read more →</a>
 
+**[Go to the archive →](/blog/)**
+
 </section>
 
 {% endif %}
 
-{% if collections.fics %}
+{% assign ficLength = collections.fics | size %}
+
+{% if ficLength > 0 %}
 
 <section class="content">
 
@@ -65,6 +73,8 @@ Thanks for visiting and take care!
 
 <a href="{{ fic.url }}">Read more →</a>
 
+**[See more works →](/writing/)**
+
 </div>
 
 </section>
@@ -79,7 +89,7 @@ Thanks for visiting and take care!
 
 **{{ firstUpdate.date }}:** {{ firstUpdate.update }}
 
-[See more updates](/changelog)
+**[See more updates →](/changelog)**
 
 <p></p>
 

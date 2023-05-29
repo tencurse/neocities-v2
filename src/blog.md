@@ -2,6 +2,11 @@
 title: ~/blog
 layout: homepage.njk
 dir: blog
+pagination:
+  data: collections.posts
+  size: 5
+  alias: posts
+  reverse: true
 ---
 
 <section class="content">
@@ -13,7 +18,7 @@ Welcome to my blog, where I talk to the void and use copious amounts of footnote
 </section>
 
 {% if collections.posts %}
-{% for post in collections.posts | reverse %}
+{% for post in posts %}
 
 <section class="content">
 <p>

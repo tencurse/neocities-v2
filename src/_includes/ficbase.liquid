@@ -15,26 +15,7 @@
 </head>
 
 <body>
-  <section class="terminal navbox">
-    <div class="top">
-      <div><button class="btn host" tabindex="-1"><span>kirsten@earth</span></button>
-        <button class="{{'btn dir2' if tag != 'home' else 'btn dir'}}" tabindex="-1">
-          <span>~{% if tag != 'home' %}/{{ dir }}{% endif %}</span>
-        </button>
-      </div>
-      <button class="btn toggle-color-scheme">
-        Turn on the lights 🔆
-      </button>
-    </div>
-    <nav>
-      <p>
-        <a href="/">/</a>
-        <a href="/writing/">/writing</a>
-        {% if chapters > 1 or chapter-total > 1 %}<a href="/fics/{{ title | slugify }}">/chapter-index</a>{%
-        endif %}
-      </p>
-    </nav>
-  </section>
+  {% include 'navigation.njk' %}
   <main>
     <article>{{ content }}</article>
   </main>

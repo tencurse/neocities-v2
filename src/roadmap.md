@@ -21,6 +21,7 @@ layout: mainpage.njk
 - [ ] Upload my fics (in progress)
 - [ ] Implement fic pagination
 - [ ] Create an RSS feed for the blog
+- [ ] Start the digital garden with backlinks and everything
 
 ## Side quests
 

@@ -4,7 +4,7 @@ dir: sitemap
 layout: mainpage.njk
 ---
 
-## Webmaster info
+## The webmaster
 
 - [about](/about)
 - [blog archive](/blog)
@@ -12,11 +12,12 @@ layout: mainpage.njk
 - media diary – WIP
 - shrines – WIP
 
-## Site info
+## The site
 
 - [changelog](/changelog)
 - [roadmap](/roadmap)
 
 ## Resources
 
-- [web development resources](/resources)
+- [main resources page](/resources)
+- [web development resources](/resources/dev)

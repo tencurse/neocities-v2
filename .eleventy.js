@@ -2,7 +2,7 @@ const eleventyDevServer = "@11ty/eleventy-dev-server";
 const eleventyBrowsersync = "@11ty/eleventy-server-browsersync";
 const markdownIt = require("markdown-it");
 const mdAnchor = require("markdown-it-anchor");
-const mdFootnote = require("markdown-it-footnote");
+// const mdFootnote = require("markdown-it-footnote");
 const mdTaskList = require("markdown-it-task-lists");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const externalLinks = require("@sardine/eleventy-plugin-external-links");
@@ -20,7 +20,7 @@ module.exports = function (eleventyConfig) {
   };
 
   eleventyConfig.setLibrary("md", markdownIt(mdOptions));
-  eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(mdFootnote));
+  // eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(mdFootnote));
   eleventyConfig.amendLibrary("md", (mdLib) =>
     mdLib.use(mdTaskList, mdTasklistOptions)
   );
@@ -62,6 +62,10 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addShortcode("footnote", (message) => {
     return `<span class="sidenote">${message}</span>`;
+  });
+
+  eleventyConfig.addShortcode("sidenote", (message) => {
+    return `<span class="marginnote">${message}</span>`;
   });
 
   eleventyConfig.addPassthroughCopy("./src/assets/css");
