@@ -2,8 +2,11 @@
 
 <div class="terminal">
   <p>
-    <button class="btn host"><span>recent posts</span></button>
-    <button class="{{'btn dir2' if tag != 'home' else 'btn dir'}}">
+    <button class="btn host" tabindex="-1"><span>recent posts</span></button>
+    <button
+      class="{{'btn dir2' if tag != 'home' else 'btn dir'}}"
+      tabindex="-1"
+    >
       <span>~{% if tag != 'home' %}/{{ dir }}{% endif %}</span>
     </button>
   </p>

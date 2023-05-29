@@ -8,3 +8,5 @@ permalink: "not_found.html"
 You’ve stumbled upon the **404** page, so this is probably not what you’re looking for. If it is, congrats, you found me!
 
 Let’s go back [home](/).
+
+Or perhaps you need a [map](/sitemap)?

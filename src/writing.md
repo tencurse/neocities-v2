@@ -1,53 +1,33 @@
 ---
-title: Welcome to my digital garden! 🌱
+title: Writing
+dir: writing
 layout: homepage.njk
-tag: home
+# pagination:
+#   data: collections.fics
+#   size: 5
+#   alias: latestFics
 ---
 
 <section class="content">
 
 # ~{% if tag != 'home' %}{{ '/' | concat: dir }}{% endif %}{% if tag == 'home' %}{{ ' ' | concat: title }}{% endif %}
 
-Howdy! I'm **Kirsten (she/her)** and I am both a woman in STEM and the arts. Software developer by day, fiction writer by (mid)night.
+## Fanfiction, a.k.a. I may be cringe but I am free
 
-I hope to carve my own little digital garden, curated with my [thoughts](/blog) and my [works](/writing).
+This is an archive of my transformative fanworks. I am in the process of uploading everything on this site. If you'd like to see all my works, please go to [my AO3 account](https://archiveofourown.org/users/symmetra/works). (Link warning: Explicit content ahead.)
 
-Thanks for visiting and take care!
+Content warnings and degrees of sexual content are labeled as such, following [AO3’s system](https://archiveofourown.org/help/symbols-key.html). **Read at your own discretion.**
 
-</section>
-
-{% if collections.posts %}
-
-<section class="content">
-
-## Latest blog post
-
-{% assign postList = collections.posts | reverse %}
-{% assign firstPost = postList | first %}
-
-### <a href="{{ firstPost.url }}" class="post">{{ firstPost.data.title }}</a>
-
-<span class="post-date">{{ firstPost.page.date | toUTC }}</span>
-
-> {{ firstPost.data.excerpt }}
-
-<a href="{{ firstPost.url }}">Read more →</a>
+Works are sorted by most recently published.
 
 </section>
 
-{% endif %}
-
-{% if collections.fics %}
+{% for fic in collections.fics %}
 
 <section class="content">
-
-## Latest fic
-
-{% assign fic = collections.fics | first %}
-
 <div class="fic">
-<h3>
-<a href="{{ fic.page.url }}" class="post">{{ fic.data.title }}</a></h3>
+<h2>
+<a href="{{ fic.page.url }}" class="post">{{ fic.data.title }}</a></h2>
 {% case fic.data.content_rating %}{% when 'Explicit' %}<span class="stat explicit">{% when 'Mature' %}<span class="stat explicit">{% when 'Teen and Up' %}<span class="stat teen">{% when 'Gen' %}<span class="stat teen">{% else %}<span class="stat">{% endcase %}[ {{ fic.data.content_rating }} ]</span><span class="stat ship">[ {{ fic.data.relationships }} ]</span>{% if fic.data.status == 'Completed' %}<span class="stat completed">[ {{ fic.data.status }} ]</span>{% else %}<span class="stat wip">[ {{ fic.data.status }} ]</span>{% endif %}
 
 **Content Warning:**
@@ -66,21 +46,6 @@ Thanks for visiting and take care!
 <a href="{{ fic.url }}">Read more →</a>
 
 </div>
-
 </section>
-
-{% endif %}
-
-<section class="content">
-
-## Site updates
-
-{% assign firstUpdate = updates | first %}
-
-**{{ firstUpdate.date }}:** {{ firstUpdate.update }}
-
-[See more updates](/changelog)
-
+{% endfor %}
 <p></p>
-
-</section>

@@ -4,7 +4,7 @@ dir: roadmap
 layout: mainpage.njk
 ---
 
-_“Don’t let perfect be the enemy of good enough.”_ —some guy probably
+> _“Don’t let perfect be the enemy of good enough.”_ —some guy probably
 
 ## Main quests
 
@@ -13,9 +13,14 @@ _“Don’t let perfect be the enemy of good enough.”_ —some guy probably
 - [x] Finalize layout and use 11ty to generate the other pages
 - [x] Use markdown for site content
 - [x] Start a blog
-- [x] Add table of contents for blog posts
-- [ ] Add a page for dev tools/resources?
-- [ ] Create a sitemap
+- [ ] Add table of contents for blog posts (re–make)
+- [x] Add a page for dev tools/resources
+- [x] Create a sitemap
+- [ ] Remake dark mode button into toggle
+- [ ] Add next/previous post/chapter in blogs/fics ([example at the bottom](https://hugo-terminal.vercel.app/posts/markdown-syntax))
+- [ ] Upload my fics (in progress)
+- [ ] Implement fic pagination
+- [ ] Create an RSS feed for the blog
 
 ## Side quests
 
@@ -23,11 +28,18 @@ _“Don’t let perfect be the enemy of good enough.”_ —some guy probably
 - [x] Add `::selection` style
 - [x] Add a favicon
 - [x] Implement footnotes
-- [ ] Implement a blog tagging system
-- [ ] Add more colour schemes
+- [ ] Style fic pagination (put in sidebar)
+- [ ] Join some webrings!
+- [ ] Implement a blog tagging system (Difficulty: Intermediate)
+- [ ] Implement a fic filter system (Difficulty: over 9000)
+- [x] Customize scrollbar
+- [ ] Show indicator for external links
+- [ ] Add more colour schemes? (use this [tutorial](https://lukelowrey.com/css-variable-theme-switcher/))
+- [ ] Add font drop down on fic page?
+- [ ] Add a button page for my favourite websites
+- [ ] Add a Recipes page??? idk
 - [ ] Make images and iframes responsive
 - [ ] Make a cute site button
-- [ ] Use GitHub actions to automate the build and release
 - [ ] Add a chatbox and link to guestbook
 
 ---

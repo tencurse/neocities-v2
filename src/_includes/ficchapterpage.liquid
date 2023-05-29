@@ -1,0 +1,52 @@
+---
+layout: ficbase.liquid
+---
+
+{% assign next = chapter-no | plus: 1 %}
+{% assign prev = chapter-no | minus: 1 %}
+<section class="content">
+  <h1>{{ title }}</h1>
+  <p class="margin">
+    <span class="marginnote">
+      <strong>Published:</strong> {{ date | toUTC }}
+      <br />
+      <strong>Word Count:</strong> {{ word-count }}
+      {% if fic-note %}<br /><br />
+      <strong>Author’s note:</strong> {{ fic-note }}
+      {% endif %}
+
+    </span>
+  </p>
+  {% if excerpt %}
+  <div class="epigraph">
+    <blockquote>
+      <p>{{ excerpt }}</p>
+    </blockquote>
+  </div>
+  <hr />
+  <br />
+  {% endif %}
+  <h2>Chapter {{ chapter-no }}{% if chapter-title %}: {{ chapter-title
+    }}{% endif %}</h2>
+  <section class="fic-page">{{ content }}</section>
+
+</section>
+{% if fic-endnote %}
+<section class="content end">
+  <h2>End notes</h2>
+  <p>
+    <span class="marginnote endnote">{{ fic-endnote }}<br /><br /></span>
+  </p>
+</section>
+{% endif %}
+<section class="terminal navbox">
+  <nav class="chapter-nav">
+    <ul>
+      {% if chapter-no != 1 %}<li><a href="/fics/{{ title | slugify }}/chapter-{{ prev }}">Previous Chapter</a></li>{%
+      endif %}
+      {% if chapter-total > 1 %}<li><a href="/fics/{{ title | slugify }}/">Chapter Index</a></li>{% endif %}
+      {% if chapter-no != chapter-total %}<li><a href="/fics/{{ title | slugify }}/chapter-{{ next }}">Next Chapter</a>
+      </li>{% endif %}
+    </ul>
+  </nav>
+</section>

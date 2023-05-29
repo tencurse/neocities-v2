@@ -1,6 +1,6 @@
 {
   "layout": "blogpage.njk",
   "tags": "posts",
-  "templateEngineOverride": "njk,md",
-  "dir": "blog"
+  "dir": "blog",
+  "permalink": "/blog/{{ page.fileSlug | slugify }}/"
 }

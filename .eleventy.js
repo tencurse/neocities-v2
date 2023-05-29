@@ -48,10 +48,26 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(externalLinks);
   eleventyConfig.addPlugin(toc);
 
-  eleventyConfig.addPassthroughCopy("./src/css");
-  eleventyConfig.addPassthroughCopy("./src/fonts");
-  eleventyConfig.addPassthroughCopy("./src/js");
-  eleventyConfig.addPassthroughCopy("./src/img");
+  eleventyConfig.addFilter("toUTC", function (value) {
+    return new Date(value).toLocaleDateString("en-CA", { timeZone: "UTC" });
+  });
+
+  eleventyConfig.addCollection("fics", function (collection) {
+    return collection.getFilteredByTag("fics").reverse();
+  });
+
+  eleventyConfig.addShortcode("footnoteNum", () => {
+    return `<label class="margin-toggle sidenote-number"></label>`;
+  });
+
+  eleventyConfig.addShortcode("footnote", (message) => {
+    return `<span class="sidenote">${message}</span>`;
+  });
+
+  eleventyConfig.addPassthroughCopy("./src/assets/css");
+  eleventyConfig.addPassthroughCopy("./src/assets/fonts");
+  eleventyConfig.addPassthroughCopy("./src/assets/js");
+  eleventyConfig.addPassthroughCopy("./src/assets/img");
 
   return {
     dir: {

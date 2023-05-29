@@ -1,7 +1,10 @@
-<div class="terminal">
+<section class="terminal navbox">
   <p>
-    <button class="btn host"><span>user info</span></button>
-    <button class="btn dir"><span>~</span></button>
+    <button class="btn host" tabindex="-1"><span>kirsten@earth</span></button>
+    <button class="btn dir2" tabindex="-1">
+      <span>~{% if tag != 'home' %}/{{ dir }}{% endif %}</span>
+    </button>
+    fetch
   </p>
   <table class="fetch">
     <tr>
@@ -21,11 +24,11 @@
     </tr>
     <tr>
       <td class="fetch">lang</td>
-      <td>[ENG,TAG]</td>
+      <td>[ENG, TGL]</td>
     </tr>
     <tr>
       <td class="fetch">mbti</td>
       <td>INTP</td>
     </tr>
   </table>
-</div>
+</section>

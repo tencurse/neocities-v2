@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="icon" href="/assets/img/favicon-2.png" type="image/png" />
+  <link rel="shortcut icon" href="/assets/img/favicon-2.png" type="image/png" />
+  {% if content_rating == 'Mature' or content_rating == 'Explicit' %}
+  <script src="/assets/js/fic.js"></script>{% endif %}
+  <script src="/assets/js/index.js"></script>
+</head>
+
+<body>
+  <section class="terminal navbox">
+    <div class="top">
+      <div><button class="btn host" tabindex="-1"><span>kirsten@earth</span></button>
+        <button class="{{'btn dir2' if tag != 'home' else 'btn dir'}}" tabindex="-1">
+          <span>~{% if tag != 'home' %}/{{ dir }}{% endif %}</span>
+        </button>
+      </div>
+      <button class="btn toggle-color-scheme">
+        Turn on the lights 🔆
+      </button>
+    </div>
+    <nav>
+      <p>
+        <a href="/">/</a>
+        <a href="/writing/">/writing</a>
+        {% if chapters > 1 or chapter-total > 1 %}<a href="/fics/{{ title | slugify }}">/chapter-index</a>{%
+        endif %}
+      </p>
+    </nav>
+  </section>
+  <main>
+    <article>{{ content }}</article>
+  </main>
+</body>
+
+</html>

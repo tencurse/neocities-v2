@@ -1,0 +1,89 @@
+---
+layout: ficbase.liquid
+---
+<section class="content">
+  <h1 id="top">{{ title }}</h1>
+  <p>
+    <span class="marginnote">
+      <strong>Published:</strong> {{ date | toUTC }}{% if status ==
+      'Completed' and chapters > 1 %} | <strong>Completed:</strong>
+      {{ date_completed | toUTC }}{% elsif status == 'In Progress' %}| In Progress{% else %}{% endif %}
+      <br />
+      <strong>Content Rating:</strong> {{ content_rating }}
+      <br />
+      <strong>Content Warning:</strong> {% for warning in content-warning
+      %}<span>{{ warning }}{% if warning != content-warning.last %}, {% endif %}</span>{% endfor %}
+      <br />
+      <strong>Word Count:</strong> {{ word-count }} |
+      <strong>Chapters:</strong> {{ chapters }}/{{ chapters }}
+      <br />
+      <br />
+      <strong>Fandom:</strong> {% for fan in fandom %}
+      <span>{{ fan }}{% if fan != fandom.last %},{% endif %}</span>{% endfor %}
+      <br />
+      <strong>Characters:</strong>{% for char in characters %}
+      <span>{{ char }}{% if char != characters.last %},{% endif %}</span>{% endfor %}
+      <br />
+      {% if ship %}<strong>Ships:</strong>
+      {% for rel in ship %}
+      <span>{{ rel }}{% if rel != ship.last %},{% endif %}</span>
+      {% endfor %} {% endif %}
+      <br />
+      <strong>Tags:</strong> {% for tag in tags %}
+      <span>{% if tag != 'fics' %}{{ tag }}{% endif %}{% if tag != tags.last and tag != 'fics' %},{% endif %}</span>{%
+      endfor %}
+      <br />
+      <br />
+      {% if fic-note %}
+      <strong>Author’s note:</strong> {{ fic-note }}<br /><br />
+      {% endif %}
+      <a href="{{ link }}">Read on AO3</a></span>
+  </p>
+  <div class="epigraph">
+    <blockquote>
+      <p>{{ excerpt }}</p>
+    </blockquote>
+  </div>
+  </p>
+  <hr />
+  {% if chapters > 1 %}
+  <h2>Chapter Index</h2>
+  <ol>
+    {% for i in (1..chapters) %}
+    <li>
+      <a href="/fics/{{ title | slugify }}/chapter-{{ i }}">Chapter {{ i }}</a>
+    </li>
+    {% endfor %}
+  </ol>
+  {% if fic-endnote %}
+  <section class="content end">
+    <h2>End notes</h2>
+    <p>
+      <span class="marginnote endnote">{{ fic-endnote }}<br /><br /></span>
+    </p>
+  </section>
+  {% endif %}
+  <section>
+    <p></p>
+  </section>
+  {% else %}
+  <section class="fic-page">
+    {{ content }}
+  </section>
+</section>
+{% if fic-endnote %}
+<section class="content end">
+  <h2>End notes</h2>
+  <p>
+    <span class="marginnote endnote">{{ fic-endnote }}<br /><br /></span>
+  </p>
+</section>
+{% endif %}
+<section class="terminal navbox">
+  <nav>
+    <ul>
+      <li><a href="#top">Back to top</li>
+    </ul>
+  </nav>
+</section>
+{% endif %}

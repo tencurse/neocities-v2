@@ -1,0 +1,19 @@
+{% set totalPages = pagination.pages | length %}
+{% if totalPages > 1 %}
+<div class="terminal">
+  <p>
+    <button class="btn host" tabindex="-1"><span>navigation</span></button>
+    <button class="{{'btn dir2' if tag != 'home' else 'btn dir'}}" tabindex="-1">
+      <span>~{% if tag != 'home' %}/{{ dir }}{% endif %}</span>
+    </button>
+  </p>
+  {% set currentPage = pagination.pageNumber + 1 %}
+  <nav>
+    {% if pagination.href.previous %}<p><a href="{{ pagination.href.previous }}">Previous</a></p>{% endif %}
+    {% if pagination.href.next %}<p><a href="{{ pagination.href.next }}">Next</a></p>{% endif %}
+  </nav>
+  <p>
+    <center>Page {{ currentPage }} of {{ pagination.pages | length }}</center>
+  </p>
+</div>
+{% endif %}

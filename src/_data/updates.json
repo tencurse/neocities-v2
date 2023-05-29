@@ -1,0 +1,62 @@
+[
+  {
+    "date": "2023-05-29",
+    "update": "Updated story pages to be uniform with the current layout, new blog post"
+  },
+  {
+    "date": "2023-05-28",
+    "update": "First ever site layout overhaul into one column... I like it but I'm not sure if it'll stick 🤔 Stay tuned!"
+  },
+  {
+    "date": "2023-05-19",
+    "update": "Tweaked layout for story pages to support sidenotes, customized scrollbar for both Chromium and Firefox browsers, added pagination in _Writing_ page, added recent fics in home sidebar"
+  },
+  {
+    "date": "2023-05-18",
+    "update": "Added _Resources_ and _Writing_ pages, used new layout for story pages, archived some of my written works"
+  },
+  {
+    "date": "2023-05-17",
+    "update": "Added `box-shadow` in containers, added _Sitemap_ page, changed page titles, new blog post! Yippee!"
+  },
+  {
+    "date": "2023-05-15",
+    "update": "Extended main container to be a bit wider, adjusted kerning for `<h1>` and `<h2>` styles"
+  },
+  {
+    "date": "2023-05-14",
+    "update": "Installed TOC plugin for blog posts, made sidebar sticky"
+  },
+  {
+    "date": "2023-05-13",
+    "update": "Installed more 11ty plugins, added syntax highlighting (both light and dark mode, yay!), updated _About_ page, added _Blog_ page, updated sidebar with recent blog posts"
+  },
+  {
+    "date": "2023-05-12",
+    "update": "Tweaked layout and CSS, added _About_ page, updated the home page"
+  },
+  {
+    "date": "2023-05-10",
+    "update": "Converted project to 11ty SSG, separated sections into their own pages"
+  },
+  {
+    "date": "2023-05-09",
+    "update": "Initialized Git version control, changed font _again_, changed site layout, added pages, tweaked light colour scheme"
+  },
+  {
+    "date": "2023-05-05",
+    "update": "Changed font"
+  },
+  {
+    "date": "2023-04-27",
+    "update": "Added `<hr />` and `<code>` styles, slight improvements to the sidebar, added _To do_ section, changed dark mode button"
+  },
+  {
+    "date": "2023-04-26",
+    "update": "Built the website layout from scratch! It's still barebones but I added some info on how I built it."
+  },
+  {
+    "date": "2023-04-23",
+    "update": "This site was born :)"
+  }
+]
