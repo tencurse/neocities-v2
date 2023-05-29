@@ -13,6 +13,7 @@ _“Don’t let perfect be the enemy of good enough.”_ —some guy probably
 - [x] Finalize layout and use 11ty to generate the other pages
 - [x] Use markdown for site content
 - [x] Start a blog
+- [x] Add table of contents for blog posts
 - [ ] Add a page for dev tools/resources?
 - [ ] Create a sitemap
 
@@ -22,7 +23,6 @@ _“Don’t let perfect be the enemy of good enough.”_ —some guy probably
 - [x] Add `::selection` style
 - [x] Add a favicon
 - [x] Implement footnotes
-- [ ] Add a back to top button on blog pages
 - [ ] Implement a blog tagging system
 - [ ] Add more colour schemes
 - [ ] Make images and iframes responsive

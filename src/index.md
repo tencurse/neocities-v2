@@ -15,6 +15,8 @@ Thanks for visiting and take care!
 
 ---
 
+{% if collections.posts %}
+
 ## Latest blog post
 
 {% set postList = collections.posts | reverse %}
@@ -23,8 +25,10 @@ Thanks for visiting and take care!
 
 > {{ firstPost.data.excerpt }}
 
+{% endif %}
+
 ## Site updates
 
-**2023-05-13:** Installed more 11ty plugins, added syntax highlighting (both light and dark mode, yay!), updated _About_ page, added _Blog_ page, updated sidebar with recent blog posts
+**2023-05-14:** Installed TOC plugin for blog posts, made sidebar sticky
 
 [See more updates](/changelog)

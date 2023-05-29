@@ -24,7 +24,7 @@ I will post the source code on my GitHub soon, but for now, feel free to right�
 ### Site credits
 
 - [VS Code](https://code.visualstudio.com/) – My trusty code editor. Free, customizable, open source. <3[^2]
-- [11ty](https://www.11ty.dev/docs/getting-started/) – Simple, lightweight static site generator. Supports a bunch of templating languages. [Here’s a blog post on my journey building this site with 11ty.](</blog/2023-05-12 - Adventures with static site generators>)
+- [11ty](https://www.11ty.dev/docs/getting-started/) – Simple, lightweight static site generator. Supports a bunch of templating languages.
 - [agnoster ohmyzsh theme](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#agnoster) – Aesthetic inspiration for the sidebar. I also use this theme for my personal Linux terminal.
 - [neofetch](https://github.com/dylanaraps/neofetch) – This is what the user info sidebar in the home page references. This command has a lot of other derivatives, and [pfetch](https://github.com/dylanaraps/pfetch) is my personal favourite.
 - [r/unixporn](https://www.reddit.com/r/unixporn/) – One of the biggest things that got me to dual–boot Linux. So much pretty customization while still retaining usability (…in some cases).
