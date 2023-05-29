@@ -7,7 +7,7 @@ layout: base.njk
   <h1>{{ title }}</h1>
   {% if tags == 'posts' %}
   <p class="post-date">
-    Posted: {{ page.date.toLocaleDateString('en-CA', {timeZone: 'UTC'}) }}
+    posted: {{ page.date.toLocaleDateString('en-CA', {timeZone: 'UTC'}) }}
   </p>
   <hr />
   {% endif %} {{ content | safe }}
