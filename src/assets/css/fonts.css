@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+@font-face {
+  font-family: "Libertinus Serif";
+  src: url("../fonts/LibertinusSerif-Regular.woff") format("woff");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Libertinus Serif";
+  src: url("../fonts/LibertinusSerif-Italic.woff") format("woff");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Libertinus Serif";
+  src: url("../fonts/LibertinusSerif-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Libertinus Serif";
+  src: url("../fonts/LibertinusSerif-SemiboldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Libertinus Serif";
+  src: url("../fonts/LibertinusSerif-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Libertinus Serif";
+  src: url("../fonts/LibertinusSerif-BoldItalic.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Inconsolata LGC Markup";
+  src: url("../fonts/InconsolataLGCmarkup.otf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inconsolata LGC Markup";
+  src: url("../fonts/InconsolataLGCmarkup-Italic.otf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Inconsolata LGC Markup";
+  src: url("../fonts/InconsolataLGCmarkup-Bold.otf");
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Inconsolata LGC Markup";
+  src: url("../fonts/InconsolataLGCmarkup-BoldItal.otf");
+  font-style: italic;
+  font-weight: 600;
+}
+
+section.fic-page,
+section.fic-page[data-font="mono"] {
+  font-family: "Inconsolata LGC Markup", "Courier New", Courier, monospace;
+}
+
+section.fic-page,
+section.fic-page[data-font="mono"] p,
+section.fic-page[data-font="mono"] ol li {
+  font-size: 1rem;
+}
+
+section.fic-page[data-font="mono"] span.marginnote {
+  font-size: 0.85rem;
+}
+
+section.fic-page[data-font="mono"] span.endnote {
+  font-size: 0.9rem;
+}
+
+section.fic-page[data-font="serif"] {
+  font-family: "Libertinus Serif", Georgia, "Times New Roman", Times, serif;
+}
+
+section.fic-page[data-font="serif"] p,
+section.fic-page[data-font="serif"] ol li {
+  font-size: 1.3rem;
+}
+
+section.fic-page[data-font="serif"] span.marginnote {
+  font-size: 1.05rem;
+}
+
+section.fic-page[data-font="serif"] span.endnote {
+  font-size: 1.1rem;
+}
+
+section.fic-page[data-font="sans"] {
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+section.fic-page[data-font="sans"] p,
+section.fic-page[data-font="sans"] ol li {
+  font-size: 1.15em;
+}
+
+section.fic-page[data-font="sans"] span.marginnote {
+  font-size: 0.9rem;
+}
+
+section.fic-page[data-font="sans"] span.endnote {
+  font-size: 1rem;
+}
+
+section.fic-page[data-font="legible"] {
+  font-family: "Atkinson Hyperlegible", "Inter", system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+section.fic-page[data-font="legible"] p,
+section.fic-page[data-font="legible"] ol li {
+  font-size: 1.2rem;
+}
+
+section.fic-page[data-font="legible"] span.marginnote {
+  font-size: 1rem;
+}
+
+section.fic-page[data-font="legible"] span.endnote {
+  font-size: 1.05rem;
+}

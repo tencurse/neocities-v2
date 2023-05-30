@@ -1,21 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{ title }}</title>
+  <link rel="stylesheet" href="/assets/css/theme.css">
+  <link rel="stylesheet" href="/assets/css/fonts.css">
+  <link rel="stylesheet" href="/assets/css/extra.css">
   <link rel="stylesheet" href="/assets/css/style.css" />
   <link rel="icon" href="/assets/img/favicon-2.png" type="image/png" />
   <link rel="shortcut icon" href="/assets/img/favicon-2.png" type="image/png" />
   {% if content_rating == 'Mature' or content_rating == 'Explicit' %}
   <script src="/assets/js/fic.js"></script>{% endif %}
+  <script src="/assets/js/font.js"></script>
   <script src="/assets/js/index.js"></script>
 </head>
 
 <body>
   {% include 'navigation.njk' %}
+  {% include 'ficdropdown.liquid' %}
   <main>
     <article>{{ content }}</article>
   </main>
