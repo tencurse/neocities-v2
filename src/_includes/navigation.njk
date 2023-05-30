@@ -5,9 +5,21 @@
         <span>~{% if tag != 'home' %}/{{ dir }}{% endif %}</span>
       </button>
     </div>
-    <button class="btn toggle-color-scheme">
-      Turn on the lights 🔆
-    </button>
+    <p>
+      <label for="theme-switcher">Theme:</label>
+
+      <select name="theme-switcher" id="theme-switcher" class="select">
+        <option value="dark">tokyo night</option>
+        <option value="light">tokyo day</option>
+        <!-- <option value="catppuccinmocha">catppuccin mocha</option>
+        <option value="catppuccinlatte">catppuccin latte</option> -->
+        <option value="horizondark">horizon dark</option>
+        <option value="horizonbright">horizon bright</option>
+        <!-- <option value="rosepine">rose pine</option>
+        <option value="rosepinedawn">rose pine dawn</option> -->
+        <span class="focus"></span>
+      </select>
+    </p>
   </div>
   <nav class="nav">
     <p>
@@ -15,8 +27,6 @@
       <a href="/about">/about</a>
       <a href="/blog">/blog</a>
       <a href="/writing">/writing</a>
-      {% if chapters > 1 or chapter-total > 1 %}<a href="/fics/{{ title | slugify }}">/chapter-index</a>{%
-      endif %}
       <a href="/sitemap">/sitemap</a>
     </p>
 
