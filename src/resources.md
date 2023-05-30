@@ -14,6 +14,7 @@ dir: resources
 
 ## Fun stuff
 
+- [r/unixporn](https://www.reddit.com/r/unixporn/) – One of the biggest things that got me to dual–boot Linux. So much pretty customization while still retaining usability (…in some cases).
 - [Terminal colour schemes](https://gogh-co.github.io/Gogh/) – Install terminal colour schemes in one command. I mostly use this as reference when picking out colour schemes for websites/IDEs
 - [88x31 Button Maker](https://hekate2.github.io/buttonmaker/) – Drag and drop customizable button maker for your website!
 
