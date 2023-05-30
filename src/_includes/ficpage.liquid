@@ -1,7 +1,7 @@
 ---
 layout: ficbase.liquid
 ---
-<section class="content">
+<section class="content fic-page" data-font="mono">
   <h1 id="top">{{ title }}</h1>
   <p>
     <span class="marginnote">
@@ -56,7 +56,7 @@ layout: ficbase.liquid
     {% endfor %}
   </ol>
   {% if fic-endnote %}
-  <section class="content end">
+  <section class="content end fic-page" data-font="mono">
     <h2>End notes</h2>
     <p>
       <span class="marginnote endnote">{{ fic-endnote }}<br /><br /></span>
@@ -67,12 +67,12 @@ layout: ficbase.liquid
     <p></p>
   </section>
   {% else %}
-  <section class="fic-page">
+  <section class="fic-content">
     {{ content }}
   </section>
 </section>
 {% if fic-endnote %}
-<section class="content end">
+<section class="content end fic-page" data-font="mono">
   <h2>End notes</h2>
   <p>
     <span class="marginnote endnote">{{ fic-endnote }}<br /><br /></span>
