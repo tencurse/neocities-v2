@@ -25,7 +25,7 @@ dir: resources/dev
 
 - [The CSS Cascade](https://2019.wattenberger.com/blog/css-cascade) – Learn about the cascade of CSS, i.e., why you don’t need to use `!important` to make your CSS work
 - [Specialized CSS frameworks](https://github.com/troxler/awesome-css-frameworks#specialized) – Cool CSS stylesheets/libraries! Some of these emulate interfaces (Windows 98, XP, 7, BIOS / MS–DOS, NES, etc.)
-  - I use [Tufte CSS](https://edwardtufte.github.io/tufte-css/) for my [fic](/writing/) pages
+  - I use [Tufte CSS](https://edwardtufte.github.io/tufte-css/) as a base for this website
   - Related: [athena](https://github.com/apas/athena/tree/master) – minimalist static blog generator based on Flask, Pandoc, and Tufte CSS
 - [Common Layouts using CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout) – MDN Docs takes you step by step on how to build some common website layouts using CSS Grid
 - [csslayouts.io](https://csslayout.io/) – Pre–made CSS layouts for common web components

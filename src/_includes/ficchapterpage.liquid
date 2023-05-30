@@ -4,7 +4,7 @@ layout: ficbase.liquid
 
 {% assign next = chapter-no | plus: 1 %}
 {% assign prev = chapter-no | minus: 1 %}
-<section class="content">
+<section class="content fic-page" data-font="mono">
   <h1>{{ title }}</h1>
   <p class="margin">
     <span class="marginnote">
@@ -28,11 +28,11 @@ layout: ficbase.liquid
   {% endif %}
   <h2>Chapter {{ chapter-no }}{% if chapter-title %}: {{ chapter-title
     }}{% endif %}</h2>
-  <section class="fic-page">{{ content }}</section>
+  <section class="fic-content">{{ content }}</section>
 
 </section>
 {% if fic-endnote %}
-<section class="content end">
+<section class="content end fic-page" data-font="mono">
   <h2>End notes</h2>
   <p>
     <span class="marginnote endnote">{{ fic-endnote }}<br /><br /></span>

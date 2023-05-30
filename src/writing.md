@@ -12,7 +12,7 @@ layout: homepage.njk
 
 # ~{% if tag != 'home' %}{{ '/' | concat: dir }}{% endif %}{% if tag == 'home' %}{{ ' ' | concat: title }}{% endif %}
 
-> _I may be cringe, but I am free_ —a wise dude
+> _I may be cringe, but I am free_ —a wise man
 
 This is an archive of my transformative fanworks, a.k.a., fanfiction.
 
