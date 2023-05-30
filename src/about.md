@@ -25,7 +25,9 @@ What am I doing [now](/now)?
 
 This mobile–friendly site is handcrafted using 11ty for Firefox browsers. The aesthetic is inspired by Linux systems and the terminal.
 
-I will post the source code on my GitHub soon, but for now, feel free to right–click, Inspect Element or View Page Source. Everyone copy–pastes code, I assure you, but if you do, please take the time to learn what you are copy–pasting. Arm yourself with knowledge.
+See the source code on [Github](https://github.com/tencurse/neocities).
+
+Feel free to right–click, Inspect Element or View Page Source. Everyone copy–pastes code, I assure you, but if you do, please take the time to learn what you are copy–pasting. Arm yourself with knowledge.
 
 ### Site credits
 
@@ -33,6 +35,7 @@ I will post the source code on my GitHub soon, but for now, feel free to right�
   - [VSCodium](https://vscodium.com/) – a community–driven, free–licensed distribution of VS Code for the Microsoft haters
 - [11ty](https://www.11ty.dev/docs/getting-started/) – Simple, lightweight static site generator. Supports a bunch of templating languages.
 - [TufteCSS](https://github.com/edwardtufte/tufte-css) - CSS stylesheet used as a base for this site
+- [deploy-to-neocities](https://deploy-to-neocities.neocities.org/) – Quick setup to automatically deploy your changes to Neocities using a GitHub workflow
 - [agnoster ohmyzsh theme](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#agnoster) – Aesthetic inspiration for the navigation. I also use this theme for my personal Linux terminal.
 - [neofetch](https://github.com/dylanaraps/neofetch) – This is what the user info in the about page references. This command has a lot of other derivatives, and [pfetch](https://github.com/dylanaraps/pfetch) is my personal favourite.
 - [r/unixporn](https://www.reddit.com/r/unixporn/) – One of the biggest things that got me to dual–boot Linux. So much pretty customization while still retaining usability (…in some cases).
