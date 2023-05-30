@@ -1,0 +1,20 @@
+<section class="terminal navbox">
+  <div class="top">
+    {% if chapters > 1 or chapter-total > 1 %}
+    <nav class="nav">
+      <p><a href="/fics/{{ title | slugify }}">/chapter-index</a></p>
+    </nav>
+    {% endif %}
+    <p>
+      <label for="font-switcher">Font:</label>
+
+      <select name="font-switcher" id="font-switcher" class="select">
+        <option value="mono">monospace (default)</option>
+        <option value="sans">sans</option>
+        <option value="serif">serif</option>
+        <option value="legible">atkinson hyperlegible</option>
+        <span class="focus"></span>
+      </select>
+    </p>
+  </div>
+</section>
