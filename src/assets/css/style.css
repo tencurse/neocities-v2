@@ -373,13 +373,6 @@ blockquote footer {
   text-align: right;
 }
 
-nav:not(.nav),
-section > p,
-section > footer,
-section > table {
-  /* width: 50%; */
-}
-
 /* 50 + 5 == 55, to be the same width as paragraph */
 section > dl,
 section > ol,
