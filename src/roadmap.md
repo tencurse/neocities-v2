@@ -34,6 +34,7 @@ layout: mainpage.njk
 - [ ] Implement a blog tagging system (Difficulty: Intermediate)
 - [ ] Implement a fic filter system (Difficulty: over 9000)
 - [x] Customize scrollbar
+- [x] Setup GitHub workflow for automated deployment
 - [ ] Show indicator for external links
 - [ ] Add more colour schemes? (use this [tutorial](https://lukelowrey.com/css-variable-theme-switcher/))
 - [ ] Add font drop down on fic page?
