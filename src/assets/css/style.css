@@ -201,6 +201,10 @@ section.pagination {
   flex-wrap: wrap;
 }
 
+section.webring {
+  gap: 1.5em;
+}
+
 section.pagination a {
   background-color: var(--color-blue);
   text-decoration: none;
