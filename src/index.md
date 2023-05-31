@@ -18,11 +18,6 @@ Or take a look at what I'm doing [now](/now).
 
 Thanks for visiting and take care!
 
-<div id='neossg'>
-  <script type="text/javascript" src="https://neossg.neocities.org/onionring-variables.js"></script>
-  <script type="text/javascript" src="https://neossg.neocities.org/onionring-widget.js"></script>
-</div>
-
 </section>
 
 {% if collections.posts %}

@@ -188,6 +188,27 @@ section.content.end {
   padding-bottom: 0;
 }
 
+section.webring {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+div#neossg,
+div#neossg table {
+  margin: 0;
+  padding: 0;
+}
+
+div#neossg a {
+  text-decoration: none;
+}
+
+div#neossg tr td {
+  padding: 0 2px;
+}
+
 p,
 dl,
 ol,
@@ -322,7 +343,6 @@ figure {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  max-width: 50%;
   -webkit-margin-start: 0;
   -webkit-margin-end: 0;
   margin: 0 0 3em 0;
@@ -492,6 +512,7 @@ label.sidenote-number {
   padding-bottom: 56.25%; /* 16:9 */
   padding-top: 25px;
   height: 0;
+  width: 50%;
 }
 
 .iframe-wrapper iframe {
@@ -517,6 +538,10 @@ label.sidenote-number {
 @media (max-width: 811px) {
   body {
     padding: 0;
+  }
+
+  .iframe-wrapper {
+    width: 100%;
   }
 
   nav ul {
@@ -548,7 +573,7 @@ label.sidenote-number {
   }
 
   figure {
-    max-width: 90%;
+    max-width: 100%;
   }
 
   figcaption,

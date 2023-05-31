@@ -12,7 +12,7 @@ a[href^="https://"]::after
 
 a[href^="localhost:8080"]::after,
 a[href^="https://10kph.neocities.org"]::after,
-div#neossg a::after {
+section.webring a::after {
   display: none !important;
 }
 
