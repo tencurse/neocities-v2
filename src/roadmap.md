@@ -18,7 +18,7 @@ Check out the [Kanban board](https://github.com/users/tencurse/projects/1)!
 - [x] Add a page for dev tools/resources
 - [x] Create a sitemap
 - [x] Remake dark mode button into ~~toggle~~ dropdown
-- [ ] Add next/previous post/chapter in blogs/fics ([example at the bottom](https://hugo-terminal.vercel.app/posts/markdown-syntax))
+- [x] Add next/previous post/chapter in blogs ([example at the bottom](https://hugo-terminal.vercel.app/posts/markdown-syntax))
 - [ ] Upload my fics (in progress)
 - [ ] Implement fic pagination
 - [ ] Create an RSS XML for the blog
