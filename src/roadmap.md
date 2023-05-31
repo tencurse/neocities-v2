@@ -20,7 +20,7 @@ Check out the [Kanban board](https://github.com/users/tencurse/projects/1)!
 - [x] Remake dark mode button into ~~toggle~~ dropdown
 - [x] Add next/previous post/chapter in blogs ([example at the bottom](https://hugo-terminal.vercel.app/posts/markdown-syntax))
 - [ ] Upload my fics (in progress)
-- [ ] Implement fic pagination
+- [x] Implement fic pagination
 - [ ] Create an RSS XML for the blog
 - [ ] Use [11ty navigation](https://www.11ty.dev/docs/plugins/navigation/) plugin
 - [ ] Implement breadcrumb navigation
