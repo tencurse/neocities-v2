@@ -4,7 +4,7 @@ layout: ficbase.liquid
 
 {% assign next = chapter-no | plus: 1 %}
 {% assign prev = chapter-no | minus: 1 %}
-<section class="content fic-page" data-font="mono">
+<section class="content fic-page {% if fic-endnote == null %}end{% endif %}" data-font="mono">
   <h1>{{ title }}</h1>
   <p class="margin">
     <span class="marginnote">
@@ -39,14 +39,10 @@ layout: ficbase.liquid
   </p>
 </section>
 {% endif %}
-<section class="terminal navbox">
-  <nav class="chapter-nav">
-    <ul>
-      {% if chapter-no != 1 %}<li><a href="/fics/{{ title | slugify }}/chapter-{{ prev }}">Previous Chapter</a></li>{%
-      endif %}
-      {% if chapter-total > 1 %}<li><a href="/fics/{{ title | slugify }}/">Chapter Index</a></li>{% endif %}
-      {% if chapter-no != chapter-total %}<li><a href="/fics/{{ title | slugify }}/chapter-{{ next }}">Next Chapter</a>
-      </li>{% endif %}
-    </ul>
-  </nav>
+<section class="content pagination">
+  {% if chapter-no != 1 %}<a href="/fics/{{ title | slugify }}/chapter-{{ prev }}">← Previous chapter</a>{%
+  endif %}
+  {% if chapter-total > 1 %}<a href="/fics/{{ title | slugify }}/">Chapter index</a>{% endif %}
+  {% if chapter-no != chapter-total %}<a href="/fics/{{ title | slugify }}/chapter-{{ next }}">Next chapter →</a>
+  {% endif %}
 </section>

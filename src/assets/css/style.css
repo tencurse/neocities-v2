@@ -254,6 +254,10 @@ em {
   color: var(--color-purple);
 }
 
+section.fic-content {
+  margin: 0;
+}
+
 section.fic-content b,
 section.fic-content strong,
 section.fic-content i,
@@ -580,11 +584,17 @@ label.sidenote-number {
   section > footer,
   section > table {
     width: 90%;
-    margin: 2rem auto;
+    margin: 1rem auto;
   }
 
-  section section.fic-page {
-    width: 100%;
+  section.content {
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  section.pagination {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   pre > code {
