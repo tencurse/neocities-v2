@@ -2,10 +2,10 @@
 title: Writing
 dir: writing
 layout: homepage.njk
-# pagination:
-#   data: collections.fics
-#   size: 5
-#   alias: latestFics
+pagination:
+  data: collections.fics
+  size: 5
+  alias: fics
 ---
 
 <section class="content">
@@ -33,7 +33,7 @@ Works are sorted by most recently published.
 
 </section>
 
-{% for fic in collections.fics %}
+{% for fic in fics %}
 
 <section class="content">
 <div class="fic">
