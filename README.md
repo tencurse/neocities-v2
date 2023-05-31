@@ -27,7 +27,7 @@ I'm not sure why you'd want to do this but here are instructions on how to creat
 7. ???
 8. Profit (Don't do this step.)
 
-## Issues
+## Feedback
 
 Found a bug? Any accessibility or design issues? I am open to any and all suggestions! Let me know [here](https://github.com/tencurse/neocities/issues) or email me at 10kph@pm.me
 
