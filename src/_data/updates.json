@@ -1,7 +1,7 @@
 [
   {
     "date": "2023-05-30",
-    "update": "Implement external link arrow indicator, added theme switcher, added font switcher"
+    "update": "Implement external link arrow indicator, added theme switcher, added font switcher, added _Comms_ page with the chatbox and guestbook, moved webrings to the footer"
   },
   {
     "date": "2023-05-29",

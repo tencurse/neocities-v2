@@ -8,19 +8,20 @@
   <meta name="color-scheme" content="dark light" />
   <title>kirsten@earth ~{{ '/'+dir if tag != 'home' }}</title>
   <link rel="stylesheet" href="/assets/css/theme.css">
+  <link rel="stylesheet" href="/assets/css/prism.css" />
   <link rel="stylesheet" href="/assets/css/fonts.css">
   <link rel="stylesheet" href="/assets/css/extra.css">
+  <link rel="stylesheet" href="https://neossg.neocities.org/onionring.css">
   <link rel="stylesheet" href="/assets/css/style.css" />
   <link rel="icon" href="/assets/img/favicon.png" type="image/png" />
   <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/png" />
-  <link rel="stylesheet" href="/assets/css/prism.css" />
   <script src="/assets/js/index.js"></script>
-  <link rel="stylesheet" href="https://neossg.neocities.org/onionring.css">
+
 </head>
 
 <body>
   <main>{% include 'navigation.njk' %}{{ content | safe }}</main>
-  <!-- <footer>{% include 'footer.njk' %}</footer> -->
+  {% if page.url == '/' %}<footer>{% include 'footer.njk' %}</footer>{% endif %}
   <br />
 </body>
 

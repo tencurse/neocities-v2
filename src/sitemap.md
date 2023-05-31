@@ -6,8 +6,7 @@ layout: mainpage.njk
 
 ## The webmaster
 
-- [about](/about)
-- [now](/now)
+- [about](/about) :: [now](/now)
 - [blog archive](/blog)
 - [writing](/writing)
 - media diary – WIP
@@ -15,6 +14,7 @@ layout: mainpage.njk
 
 ## The site
 
+- [comms](/comms) – chatbox and guestbook
 - [changelog](/changelog)
 - [roadmap](/roadmap)
 

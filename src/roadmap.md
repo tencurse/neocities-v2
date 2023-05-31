@@ -39,6 +39,7 @@ layout: mainpage.njk
 - [x] Show indicator for external links
 - [x] Add more colour schemes? (use this [tutorial](https://lukelowrey.com/css-variable-theme-switcher/))
 - [x] Add font drop down on fic page
+- [ ] Remake blog archive [inspo](https://tympanus.net/Development/MenuHoverEffects/tsula.html)
 - [ ] Add a button page for my favourite websites
 - [ ] Add a Recipes page??? idk
 - [ ] Make images and iframes responsive

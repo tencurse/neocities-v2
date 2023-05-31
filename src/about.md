@@ -14,6 +14,8 @@ What am I doing [now](/now)?
 
 ## Where to find me
 
+- Leave a message on my [chatbox/guestbook](/comms)
+- Or send an email: 10kph@pm.me
 - [Neocities profile](https://neocities.org/site/10kph)
 - [Tumblr](https://femslashes.tumblr.com/)
 - [Twitter](https://twitter.com/10kph)
@@ -25,9 +27,7 @@ What am I doing [now](/now)?
 
 This mobile–friendly site is handcrafted using 11ty for Firefox browsers. The aesthetic is inspired by Linux systems and the terminal.
 
-See the source code on [Github](https://github.com/tencurse/neocities).
-
-Feel free to right–click, Inspect Element or View Page Source. Everyone copy–pastes code, I assure you, but if you do, please take the time to learn what you are copy–pasting. Arm yourself with knowledge.
+See the source code on [Github](https://github.com/tencurse/neocities){% footnoteNum %}{% footnote "Feel free to contribute or leave feedback!" %}. Everyone copy–pastes code, I assure you, but if you do, please take the time to learn what you are copy–pasting. Arm yourself with knowledge.
 
 ### Site credits
 
@@ -39,6 +39,7 @@ Feel free to right–click, Inspect Element or View Page Source. Everyone copy�
 - [agnoster ohmyzsh theme](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#agnoster) – Aesthetic inspiration for the navigation. I also use this theme for my personal Linux terminal.
 - [neofetch](https://github.com/dylanaraps/neofetch) – This is what the user info in the about page references. This command has a lot of other derivatives, and [pfetch](https://github.com/dylanaraps/pfetch) is my personal favourite.
 - [Tokyo Night](https://github.com/folke/tokyonight.nvim) – Colour scheme used for the website and syntax highlighting. Light theme is tweaked a little for better contrast. Find more terminal colour schemes [here](https://gogh-co.github.io/Gogh/).
-- [CSS Tricks, my beloved](https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web) – Tutorial for implementing dark mode and light mode in your website. I tweaked the JavaScript code a lot to suit my needs.
+- [CSS Tricks, my beloved](https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web) – Tutorial for implementing dark mode and light mode in your website. ~~I tweaked the JavaScript code a lot to suit my needs.~~
+  - [Simple dark mode with CSS variables](https://lukelowrey.com/css-variable-theme-switcher/) – Tutorial I used for the theme switcher dropdown using `data-theme` attributes. I also implemented the same for my font switcher!
 
 Find more web dev resources [here](/resources/dev)!
