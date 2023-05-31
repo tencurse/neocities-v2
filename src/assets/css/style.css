@@ -130,6 +130,11 @@ section.content {
   width: 50%;
 }
 
+section.pagination {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 section.terminal {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -188,11 +193,25 @@ section.content.end {
   padding-bottom: 0;
 }
 
-section.webring {
+section.webring,
+section.pagination {
   display: flex;
   justify-content: center;
   gap: 1em;
   flex-wrap: wrap;
+}
+
+section.pagination a {
+  background-color: var(--color-blue);
+  text-decoration: none;
+  color: var(--background-primary);
+  font-weight: 600;
+  padding: 0.5em 1em;
+  box-shadow: 8px 8px var(--color-black);
+}
+
+section.pagination a:active {
+  transform: scale(0.98);
 }
 
 div#neossg,

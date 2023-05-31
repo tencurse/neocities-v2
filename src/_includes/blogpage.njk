@@ -2,6 +2,9 @@
 layout: base.njk
 ---
 
+{% set previousPost = collections.posts | getPreviousCollectionItem %}
+{% set nextPost = collections.posts | getNextCollectionItem %}
+
 <section class="content">
   <h1>{{ title }}</h1>
   <p>
@@ -10,4 +13,8 @@ layout: base.njk
     </span>
   </p>
   {{ content | safe }}
+</section>
+<section class="content pagination">
+  {% if previousPost %}<a href="{{ previousPost.url }}">← Previous Post</a>{% endif %}
+  {% if nextPost %}<a href="{{ nextPost.url }}">Next Post →</a>{% endif %}
 </section>
