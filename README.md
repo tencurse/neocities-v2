@@ -16,6 +16,8 @@ Website layout as of 2023-05-29
 
 ## Getting started
 
+I'm not sure why you'd want to do this but here are instructions on how to create a clone of my website on your local machine:
+
 1. Make sure you have latest stable Node.js version installed
 2. Clone the repo with `git clone https://github.com/tencurse/neocities.git`
 3. Go to your directory via command line `cd neocities`
@@ -23,10 +25,10 @@ Website layout as of 2023-05-29
 5. Run `npm start`
 6. Go to `localhost:8080` on your browser
 7. ???
-8. Profit (Don't.)
+8. Profit (Don't do this step.)
 
 ## Issues
 
-Found a bug? Any accessibility or design issues? Let me know [here](https://github.com/tencurse/neocities/issues) or email me at 10kph@pm.me
+Found a bug? Any accessibility or design issues? I am open to any and all suggestions! Let me know [here](https://github.com/tencurse/neocities/issues) or email me at 10kph@pm.me
 
 Or [contribute](https://github.com/tencurse/neocities/pulls) to the site.
