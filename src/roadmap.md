@@ -6,6 +6,8 @@ layout: mainpage.njk
 
 > _“Don’t let perfect be the enemy of good enough.”_ —some guy probably
 
+Check out the [Kanban board](https://github.com/users/tencurse/projects/1)!
+
 ## Main quests
 
 - [x] Initialize Git version control
@@ -41,10 +43,9 @@ layout: mainpage.njk
 - [x] Add font drop down on fic page
 - [ ] Remake blog archive [inspo](https://tympanus.net/Development/MenuHoverEffects/tsula.html)
 - [ ] Add a button page for my favourite websites
-- [ ] Add a Recipes page??? idk
-- [ ] Make images and iframes responsive
-- [ ] Make a cute site button
-- [ ] Add a chatbox and link to guestbook
+- [x] Make images and iframes responsive
+- [x] Make a cute site button (Not yet uploaded)
+- [x] Add a chatbox and link to guestbook
 
 ---
 
