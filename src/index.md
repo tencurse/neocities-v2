@@ -29,7 +29,7 @@ Thanks for visiting and take care!
 {% assign postList = collections.posts | reverse %}
 {% assign firstPost = postList | first %}
 
-### <a href="{{ firstPost.url }}" class="post">{{ firstPost.data.title }}</a>
+<h3><a href="{{ firstPost.url }}" class="post">{{ firstPost.data.title }}</a></h3>
 
 <span class="post-date">{{ firstPost.page.date | toUTC }}</span>
 

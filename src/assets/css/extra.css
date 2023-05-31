@@ -282,3 +282,28 @@ select:focus + .focus {
   border: 2px solid var(--select-focus);
   border-radius: inherit;
 }
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+  text-decoration: none;
+  font-style: normal;
+  font-size: 1em;
+  margin-left: 0.1em;
+}
+a[href].header-anchor,
+a[href].header-anchor:visited {
+  color: transparent;
+}
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+  text-decoration: underline;
+  color: var(--color-green);
+}
+a[href].header-anchor:focus,
+:hover > a[href].header-anchor {
+  color: var(--color-yellow);
+}
+
+h2 + .header-anchor {
+  font-size: 1.5em;
+}
