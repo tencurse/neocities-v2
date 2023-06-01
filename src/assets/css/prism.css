@@ -1,7 +1,8 @@
 code[class*="language-"],
 code,
 pre[class*="language-"],
-pre {
+pre,
+kbd {
   background: var(--plain-backgroundColor);
   color: var(--plain-color);
   font-family: "Inconsolata LGC Markup";
@@ -45,14 +46,14 @@ code::selection {
 pre[class*="language-"],
 pre {
   padding: 1em;
-  margin: 1em;
   overflow: auto;
   border-radius: 0.3em;
 }
 
 /* Inline code */
 :not(pre) > code[class*="language-"],
-:not(pre) > code {
+:not(pre) > code,
+kbd {
   padding: 0.2em 0.3em;
   border-radius: 0.3em;
   white-space: normal;

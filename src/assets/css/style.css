@@ -341,6 +341,14 @@ section > ul {
   -webkit-padding-start: 5%;
 }
 
+section > ul {
+  padding-left: 1.75rem;
+}
+
+section > ul li ul {
+  padding-left: 1.5rem;
+}
+
 dt:not(:first-child),
 li:not(:first-child) {
   margin-top: 0.25rem;
@@ -470,6 +478,10 @@ table.fullwidth {
   width: 100%;
 }
 
+section > table {
+  width: 100%;
+}
+
 div.table-wrapper {
   overflow-x: auto;
   font-family: "Trebuchet MS", "Gill Sans", "Gill Sans MT", sans-serif;
@@ -505,8 +517,6 @@ h3 > code {
 
 pre > code {
   font-size: 0.9rem;
-  width: 52.5%;
-  margin-left: 2.5%;
   overflow-x: auto;
   display: block;
 }

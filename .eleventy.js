@@ -22,7 +22,18 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.amendLibrary("md", (mdLib) =>
     mdLib.use(mdTaskList, mdTasklistOptions)
   );
-  eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(mdAnchor));
+  eleventyConfig.amendLibrary("md", (mdLib) =>
+    mdLib.use(mdAnchor, {
+      permalink: mdAnchor.permalink.ariaHidden({
+        placement: "after",
+        class: "header-anchor",
+        symbol: "#",
+        ariaHidden: false,
+      }),
+      level: [2, 3, 4],
+      slugify: eleventyConfig.getFilter("slugify"),
+    })
+  );
 
   eleventyConfig.setServerOptions({
     module: eleventyBrowsersync,
