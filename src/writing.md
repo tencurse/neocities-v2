@@ -2,10 +2,10 @@
 title: Writing
 dir: writing
 layout: homepage.njk
-pagination:
-  data: collections.fics
-  size: 5
-  alias: fics
+# pagination:
+#   data: collections.fics
+#   size: 5
+#   alias: fics
 ---
 
 <section class="content">
