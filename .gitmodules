@@ -1,0 +1,3 @@
+[submodule "src/fics"]
+	path = src/fics
+	url = git@tencurse:tencurse/fics.git
