@@ -26,12 +26,6 @@ jobs:
         run: |
           npm ci
           npm run build
-
-  publish-npm:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
       # Create a zipped copy of the generated site
       - name: Create artifact
         uses: actions/upload-artifact@v3.1.2
