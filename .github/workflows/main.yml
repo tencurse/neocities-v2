@@ -11,9 +11,8 @@ concurrency: # prevent concurrent deploys doing strange things
   cancel-in-progress: true
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
       # Set up any tools and build steps here
@@ -21,11 +20,24 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v3
         with:
+          cache: 'npm'
           node-version: lts/*
       - name: Install deps and build
         run: |
-          npm i
+          npm ci
           npm run build
+
+  publish-npm:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      # Create a zipped copy of the generated site
+      - name: Create artifact
+        uses: actions/upload-artifact@v3.1.2
+        with:
+          name: static-site
+          path: public
       # When the dist_dir is ready, deploy it to neocities
       - name: Deploy to neocities
         uses: bcomnes/deploy-to-neocities@v1
