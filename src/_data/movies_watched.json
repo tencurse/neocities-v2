@@ -1,0 +1,52 @@
+[
+  {
+    "Title": "Atomic Blonde",
+    "Directors": ["David Leitch"],
+    "Rating": 4.5,
+    "Genres": ["Thriller", "Action"],
+    "Year": 2017,
+    "DateWatched": "2023-06-01",
+    "Rewatch": true
+  },
+  {
+    "Title": "Red Sparrow",
+    "Directors": ["Francis Lawrence"],
+    "Rating": 4,
+    "Genres": ["Thriller", "Mystery"],
+    "Year": 2018,
+    "DateWatched": "2023-05-28"
+  },
+  {
+    "Title": "Guardians of the Galaxy Vol. 3",
+    "Directors": ["James Gunn"],
+    "Rating": 4.5,
+    "Genres": ["Science-Fiction", "Action", "Adventure"],
+    "Year": 2023,
+    "DateWatched": "2023-05-08"
+  },
+  {
+    "Title": "Suzume",
+    "Directors": ["Makoto Shinkai"],
+    "Rating": 4,
+    "Genres": ["Adventure", "Drama", "Fantasy"],
+    "Year": 2022,
+    "DateWatched": "2023-05-04"
+  },
+  {
+    "Title": "Sinbad: Legend of the Seven Seas",
+    "Directors": ["Tim Johnson", "Patrick Gilmore"],
+    "Rating": 4,
+    "Genres": ["Adventure", "Drama", "Fantasy"],
+    "Year": 2022,
+    "DateWatched": "2023-04-04",
+    "Rewatch": true
+  },
+  {
+    "Title": "John Wick: Chapter 4",
+    "Directors": ["Chad Stahelski"],
+    "Rating": 5,
+    "Genres": ["Thriller", "Action", "Crime"],
+    "Year": 2023,
+    "DateWatched": "2023-04-03"
+  }
+]

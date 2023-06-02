@@ -1,0 +1,14 @@
+{% if movies_watched %}
+<ul class="log">
+  {% for movie in movies_watched %}
+  {% assign directors = movie.Directors %}
+  <li class="log-entry">
+    <span class="log-date">{{ movie.DateWatched | toUTC }}</span>
+    <span class="log-title"><em>{{ movie.Title }} ({{ movie.Year }})</em> dir. {% for dir in directors %}{{ dir
+      }}{% if dir != directors.last %}, {%endif%}{% endfor %}</span> <span class="log-icon">{% if movie.Rewatch %}↻{%
+      endif %}{% if movie.Favourite %}♥{% endif %}</span>
+    <span class="log-rating">{{ movie.Rating }}/5</span>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
