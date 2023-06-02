@@ -20,12 +20,14 @@ I'm not sure why you'd want to do this but here are instructions on how to creat
 
 1. Make sure you have latest stable Node.js version installed
 2. Clone the repo with `git clone https://github.com/tencurse/neocities.git`
-3. Go to your directory via command line `cd neocities`
+3. Go to the project directory via command line `cd neocities`
 4. Run `npm install`
 5. Run `npm start`
 6. Go to `localhost:8080` on your browser
 7. ???
-8. Profit (Don't do this step.)
+8. Profit (Don't actually do this step.)
+
+If you'd like to get the generated static site, run `npm build`. The files will be in the `public` folder.
 
 ## Feedback
 

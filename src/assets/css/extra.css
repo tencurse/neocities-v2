@@ -372,7 +372,6 @@ h2 + .header-anchor {
 /* rainbow home page title */
 .hometitle {
   margin: 0 auto;
-  padding: 8px 0 13px 0;
   background-image: linear-gradient(
     to right,
     var(--color-red),
@@ -391,7 +390,7 @@ h2 + .header-anchor {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: textclip 2s linear infinite;
+  animation: textclip 2s linear reverse infinite;
   display: inline-block;
   text-shadow: none;
   text-decoration: none;
@@ -401,6 +400,7 @@ h2 + .header-anchor {
 
 .wave {
   position: relative;
+  padding: 8px 0 13px 0;
 }
 
 .wave span {
