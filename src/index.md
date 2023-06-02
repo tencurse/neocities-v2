@@ -87,7 +87,7 @@ Thanks for visiting and take care!
 
 {% assign firstUpdate = updates | first %}
 
-**{{ firstUpdate.date }}:** {{ firstUpdate.update }}
+**{{ firstUpdate.date  | toUTC }}:** {{ firstUpdate.update }}
 
 **[See more updates →](/changelog)**
 

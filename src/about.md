@@ -17,9 +17,10 @@ What am I doing [now](/now)?
 - Leave a message on my [chatbox/guestbook](/comms)
 - Or send an email: 10kph@pm.me
 - [Neocities profile](https://neocities.org/site/10kph)
-- [Tumblr](https://femslashes.tumblr.com/)
-- [Twitter](https://twitter.com/10kph)
-- [Archive of our own](https://archiveofourown.org/users/symmetra)
+- <a href="https://femslashes.tumblr.com/" rel="me">Tumblr</a>
+- <a href="https://twitter.com/10kph" rel="me">Twitter</a>
+- <a href="https://archiveofourown.org/users/symmetra" rel="me">Archive of our own</a>
+- <a rel="me" href="https://mas.to/@10kph">Fediverse</a>
 
 ## About the site
 

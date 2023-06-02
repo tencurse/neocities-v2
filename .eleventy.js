@@ -58,7 +58,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(toc);
 
   eleventyConfig.addFilter("toUTC", function (value) {
-    return new Date(value).toLocaleDateString("en-CA", { timeZone: "UTC" });
+    return new Date(value).toLocaleDateString("en-CA", {
+      timeZone: "UTC",
+      month: "short",
+      day: "2-digit",
+      year: "numeric",
+    });
   });
 
   eleventyConfig.addCollection("fics", function (collection) {
