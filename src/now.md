@@ -4,7 +4,8 @@ dir: now
 layout: mainpage.njk
 ---
 
-- Living in Vancouver, BC 🍁
+- Living in Vancouver, BC
+  - The unceded and ancestral territory of the [xʷməθkʷəy̓əm](https://www.musqueam.bc.ca/) (Musqueam), [Sḵwx̱wú7mesh](https://www.squamish.net/) (Squamish), and [səlilwətaɬ](https://twnation.ca/) (Tsleil-Waututh) Nations
 - Working as a software developer for \[REDACTED\]
 - Building this site (always a work in progress, just like me!)
   - [/roadmap](/roadmap) :: [/changelog](/changelog)
@@ -13,4 +14,4 @@ layout: mainpage.njk
 - Grieving the end of [Succession (2018)](<https://en.wikipedia.org/wiki/Succession_(TV_series)>)
 - Writing _[Collusion](https://archiveofourown.org/works/39908016/chapters/99927648)_, a _Genshin Impact_ fanfiction (Link warning: Explicit content ahead.)
 
-Last updated: May 2023
+Last updated: June 2023
