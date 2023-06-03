@@ -8,6 +8,7 @@ layout: mainpage.njk
 
 - [about](/about) :: [now](/now)
 - [blog archive](/blog)
+- [logs](/logs)
 - [writing](/writing)
 - media diary – WIP
 - shrines – WIP
