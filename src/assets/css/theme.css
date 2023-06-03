@@ -5,8 +5,12 @@
 
     --background-selection: #b6bfe2;
     --background-secondary: #e1e2e7;
+
+    --background-selection-transp: rgba(182, 191, 226, 0.3);
+    --background-red: rgba(214, 94, 118, 0.3);
     --background-yellow: rgba(181, 118, 20, 0.3);
     --background-green: rgba(75, 160, 22, 0.3);
+    --background-blue: rgba(100, 140, 227, 0.3);
 
     --color-black: #32354e;
     --color-red: #d65e76;
@@ -44,8 +48,12 @@
 
     --background-selection: #283457;
     --background-secondary: #24283b;
+
+    --background-selection-transp: rgba(40, 52, 87, 0.3);
+    --background-red: rgba(247, 118, 142, 0.3);
     --background-yellow: rgba(224, 175, 104, 0.3);
     --background-green: rgba(158, 206, 106, 0.3);
+    --background-blue: rgba(122, 162, 247, 0.3);
 
     --color-black: #0b0b11;
     --color-red: #f7768e;
@@ -82,8 +90,12 @@ html[data-theme="light"] {
 
   --background-selection: #b6bfe2;
   --background-secondary: #e1e2e7;
+
+  --background-selection-transp: rgba(182, 191, 226, 0.3);
+  --background-red: rgba(214, 94, 118, 0.3);
   --background-yellow: rgba(181, 118, 20, 0.3);
   --background-green: rgba(75, 160, 22, 0.3);
+  --background-blue: rgba(100, 140, 227, 0.3);
 
   --color-black: #32354e;
   --color-red: #d65e76;
@@ -119,8 +131,12 @@ html[data-theme="dark"] {
 
   --background-selection: #283457;
   --background-secondary: #24283b;
+
+  --background-selection-transp: rgba(40, 52, 87, 0.3);
+  --background-red: rgba(247, 118, 142, 0.3);
   --background-yellow: rgba(224, 175, 104, 0.3);
   --background-green: rgba(158, 206, 106, 0.3);
+  --background-blue: rgba(122, 162, 247, 0.3);
 
   --color-black: #0b0b11;
   --color-red: #f7768e;
@@ -156,8 +172,12 @@ html[data-theme="horizondark"] {
 
   --background-selection: #6c6f9380;
   --background-secondary: #1c1e26;
+
+  --background-selection-transp: rgba(108, 111, 147, 0.3);
+  --background-red: rgba(233, 86, 120, 0.3);
   --background-yellow: rgba(250, 183, 149, 0.3);
   --background-green: rgba(41, 211, 152, 0.3);
+  --background-blue: rgba(38, 187, 217, 0.3);
 
   --color-black: #16161c;
   --color-red: #e95678;
@@ -193,8 +213,12 @@ html[data-theme="horizonbright"] {
 
   --background-selection: #af542780;
   --background-secondary: #fadad1;
+
+  --background-selection-transp: rgba(175, 84, 39, 0.3);
+  --background-red: rgba(236, 106, 136, 0.3);
   --background-yellow: rgba(247, 125, 38, 0.3);
   --background-green: rgba(30, 185, 128, 0.3);
+  --background-blue: rgba(30, 174, 174, 0.3);
 
   --color-black: #16161c;
   --color-red: #ec6a88;
