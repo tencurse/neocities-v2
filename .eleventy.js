@@ -82,6 +82,14 @@ module.exports = function (eleventyConfig) {
     return `<span class="marginnote">${message}</span>`;
   });
 
+  eleventyConfig.addShortcode("sidenote", (message) => {
+    return `<span class="marginnote">${message}</span>`;
+  });
+
+  eleventyConfig.addShortcode("aside", (type, message, start = false) => {
+    return `<aside class="${type} ${start && "start"}">${message}</aside>`;
+  });
+
   eleventyConfig.addPassthroughCopy("./src/assets/css");
   eleventyConfig.addPassthroughCopy("./src/assets/fonts");
   eleventyConfig.addPassthroughCopy("./src/assets/js");
