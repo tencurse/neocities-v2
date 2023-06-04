@@ -347,6 +347,10 @@ h2 + .header-anchor {
   flex-basis: 100%;
 }
 
+.log-dir {
+  font-size: 0.85em;
+}
+
 @media only screen and (min-width: 500px) {
   .log-date {
     flex-basis: 20%;
