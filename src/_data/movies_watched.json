@@ -1,5 +1,23 @@
 [
   {
+    "Title": "But I'm a Cheerleader",
+    "Directors": ["Jamie Babbit"],
+    "Rating": 5,
+    "Genres": ["Comedy", "Romance", "Drama"],
+    "Year": 2000,
+    "DateWatched": "2023-06-04",
+    "Favourite": true,
+    "Rewatch": true
+  },
+  {
+    "Title": "Bound",
+    "Directors": ["Lilly Wachowski", "Lana Wachowski"],
+    "Rating": 4,
+    "Genres": ["Thriller", "Drama"],
+    "Year": 1996,
+    "DateWatched": "2023-06-03"
+  },
+  {
     "Title": "Y Tu Mamá También",
     "Directors": ["Alfonso Cuarón"],
     "Rating": 4.5,
@@ -47,7 +65,7 @@
     "Rating": 4,
     "Genres": ["Adventure", "Drama", "Fantasy"],
     "Year": 2022,
-    "DateWatched": "2023-04-04",
+    "DateWatched": "2023-04-08",
     "Rewatch": true
   },
   {
@@ -66,6 +84,109 @@
     "Genres": ["Thriller", "Action", "Crime"],
     "Year": 2023,
     "DateWatched": "2023-04-03"
+  },
+  {
+    "Title": "Tetris",
+    "Directors": ["Jon S. Baird"],
+    "Rating": 4,
+    "Genres": ["History", "Drama", "Thriller"],
+    "Year": 2023,
+    "DateWatched": "2023-03-31"
+  },
+  {
+    "Title": "10 Things I Hate About You",
+    "Directors": ["Gil Junger"],
+    "Rating": 3.5,
+    "Genres": ["Comedy", "Romance", "Drama"],
+    "Year": 1999,
+    "DateWatched": "2023-03-30",
+    "Rewatch": true,
+    "Favourite": true
+  },
+  {
+    "Title": "Speed Racer",
+    "Directors": ["Lilly Wachowski", "Lana Wachowski"],
+    "Rating": 3.5,
+    "Genres": ["Comedy", "Adventure", "Action"],
+    "Year": 2008,
+    "DateWatched": "2023-03-28"
+  },
+  {
+    "Title": "Cocaine Bear",
+    "Directors": ["Elizabeth Banks"],
+    "Rating": 3.5,
+    "Genres": ["Thriller", "Comedy", "Crime"],
+    "Year": 2023,
+    "DateWatched": "2023-03-24"
+  },
+  {
+    "Title": "Glass Onion",
+    "Directors": ["Rian Johnson"],
+    "Rating": 5,
+    "Genres": ["Crime", "Comedy", "Mystery"],
+    "Year": 2022,
+    "DateWatched": "2023-03-17",
+    "Rewatch": true
+  },
+  {
+    "Title": "The Menu",
+    "Directors": ["Mark Mylod"],
+    "Rating": 5,
+    "Genres": ["Thriller", "Horror", "Comedy"],
+    "Year": 2022,
+    "DateWatched": "2023-02-24"
+  },
+  {
+    "Title": "Ant-Man and the Wasp: Quantumania",
+    "Directors": ["Peyton Reed"],
+    "Rating": 2,
+    "Genres": ["Action", "Adventure", "Science-Fiction"],
+    "Year": 2023,
+    "DateWatched": "2023-02-18"
+  },
+  {
+    "Title": "Puss in Boots: The Last Wish",
+    "Directors": ["Joel Crawford"],
+    "Rating": 5,
+    "Genres": ["Comedy", "Adventure", "Fantasy"],
+    "Year": 2022,
+    "DateWatched": "2023-02-09"
+  },
+  {
+    "Title": "Black Panther: Wakanda Forever",
+    "Directors": ["Ryan Coogler"],
+    "Rating": 4,
+    "Genres": ["Adventure", "Action", "Science-Fiction"],
+    "Year": 2022,
+    "DateWatched": "2023-02-03",
+    "Rewatch": true
+  },
+  {
+    "Title": "Back to the Future Part III",
+    "Directors": ["Robert Zemeckis"],
+    "Rating": 4.5,
+    "Genres": ["Adventure", "Comedy", "Science-Fiction"],
+    "Year": 1990,
+    "DateWatched": "2023-01-28",
+    "Rewatch": true
+  },
+  {
+    "Title": "Back to the Future Part II",
+    "Directors": ["Robert Zemeckis"],
+    "Rating": 4.5,
+    "Genres": ["Adventure", "Comedy", "Science-Fiction"],
+    "Year": 1989,
+    "DateWatched": "2023-01-26",
+    "Rewatch": true
+  },
+  {
+    "Title": "Back to the Future",
+    "Directors": ["Robert Zemeckis"],
+    "Rating": 5,
+    "Genres": ["Adventure", "Comedy", "Science-Fiction"],
+    "Year": 1985,
+    "DateWatched": "2023-01-25",
+    "Rewatch": true
   },
   {
     "Title": "Pearl",

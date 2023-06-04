@@ -4,11 +4,7 @@ dir: logs/movies
 layout: mainpage.njk
 ---
 
-{% aside "", "<p><b>NOTE:</b> I'm still in the process of logging everything and making things look nice!</p>"%}
-
-↻ = rewatch
-
-## 2023 (WIP)
+## 2023
 
 {% include 'logmovie.liquid' %}
 
@@ -16,8 +12,8 @@ layout: mainpage.njk
 
 - [x] Atomic Blonde (2017) ↻
 - [x] Y tu mamá también (2001)
-- [ ] Bound (1996)
-- [ ] But I'm a Cheerleader (2000) ↻
+- [x] Bound (1996)
+- [x] But I'm a Cheerleader (2000) ↻
 - [ ] Girl, Interrupted (2000)
 - [ ] D.E.B.S. (2005)
 - [ ] Saving Face (2005) ↻
