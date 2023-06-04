@@ -1,3 +1,7 @@
+/**
+ *  @param {import("@11ty/eleventy/src/UserConfig")} eleventyConfig
+ */
+
 const eleventyDevServer = "@11ty/eleventy-dev-server";
 const eleventyBrowsersync = "@11ty/eleventy-server-browsersync";
 const markdownIt = require("markdown-it");
