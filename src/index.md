@@ -6,7 +6,7 @@ tag: home
 
 <section class="content">
 
-# ~Welcome to my <span class="wave hometitle"><span style="--i:1">d</span><span style="--i:2">i</span><span style="--i:3">g</span><span style="--i:4">i</span><span style="--i:5">t</span><span style="--i:6">a</span><span style="--i:7">l</span> <span style="--i:9">g</span><span style="--i:10">a</span><span style="--i:11">r</span><span style="--i:12">d</span><span style="--i:13">e</span><span style="--i:14">n</span></span> 🌱
+# ~ Welcome to my <span class="wave hometitle">digital garden</span>
 
 Howdy! I'm **Kirsten (she/her)**. Software developer by day, fiction writer by (mid)night.
 
@@ -66,7 +66,7 @@ Thanks for visiting and take care!
 <span>{{ rel }}{%- if rel != fic.data.ship.last -%},{%- endif -%}</span>
 {%- endfor -%}
 {% endif %}
-**Word Count:** {{ fic.data.word-count }} | **Chapters:** {{ fic.data.chapters }}
+**Word Count:** {{ fic.data.word-count | formatNum }} | **Chapters:** {{ fic.data.chapters }}
 **Published:** {{ fic.data.date | toUTC }}{% if fic.data.status == 'Completed' and fic.data.chapters > 1  %} to {{ fic.data.date_completed | toUTC }} {% endif %}
 
 > {{ fic.data.excerpt }}

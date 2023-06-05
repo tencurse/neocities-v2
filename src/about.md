@@ -39,6 +39,7 @@ See the source code on [Github](https://github.com/tencurse/neocities){% footnot
 - [11ty](https://www.11ty.dev/docs/getting-started/) – Simple, lightweight static site generator. Supports a bunch of templating languages.
 - [TufteCSS](https://github.com/edwardtufte/tufte-css) - CSS stylesheet used as a base for this site
 - [deploy-to-neocities](https://deploy-to-neocities.neocities.org/) – Quick setup to automatically deploy your changes to Neocities using a GitHub workflow
+- [Inconsolata LGC Markup](https://bdtechconcepts.com/Inconsolata-LGC-Markup-Font.html) - variation of Inconsolata font with Italics
 - [agnoster ohmyzsh theme](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#agnoster) – Aesthetic inspiration for the navigation. I also use this theme for my personal Linux terminal.
 - [neofetch](https://github.com/dylanaraps/neofetch) – This is what the user info in the about page references. This command has a lot of other derivatives, and [pfetch](https://github.com/dylanaraps/pfetch) is my personal favourite.
 - [Tokyo Night](https://github.com/folke/tokyonight.nvim) – Colour scheme used for the website and syntax highlighting. Light theme is tweaked a little for better contrast. Find more terminal colour schemes [here](https://gogh-co.github.io/Gogh/).

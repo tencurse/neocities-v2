@@ -3,7 +3,7 @@
 a[href^="http"]::after,
 a[href^="https://"]::after
 {
-  content: "↗";
+  content: "🡥";
   margin-left: 4px;
   display: inline-block;
   font-style: normal;
@@ -63,7 +63,7 @@ button.btn::after {
 button.host,
 button.dir,
 button.dir2 {
-  font-size: 1.12rem;
+  font-size: 1rem;
   letter-spacing: -0.5px;
   font-weight: 600;
   padding-top: 4px;
@@ -381,6 +381,28 @@ h2 + .header-anchor {
 /* rainbow home page title */
 .hometitle {
   margin: 0 auto;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(var(--color-red)),
+    color-stop(var(--color-yellow)),
+    color-stop(var(--color-green)),
+    color-stop(var(--color-teal)),
+    color-stop(var(--color-blue)),
+    color-stop(var(--color-purple)),
+    to(var(--color-violet))
+  );
+  background-image: -o-linear-gradient(
+    left,
+    var(--color-red),
+    var(--color-yellow),
+    var(--color-green),
+    var(--color-teal),
+    var(--color-blue),
+    var(--color-purple),
+    var(--color-violet)
+  );
   background-image: linear-gradient(
     to right,
     var(--color-red),
@@ -415,25 +437,54 @@ h2 + .header-anchor {
 .wave span {
   position: relative;
   display: inline-block;
+  -webkit-animation: animate 2s ease-in-out infinite;
   animation: animate 2s ease-in-out infinite;
+  -webkit-animation-delay: calc(0.1s * var(--i));
   animation-delay: calc(0.1s * var(--i));
 }
 
-@keyframes animate {
+@-webkit-keyframes animate {
   0% {
+    -webkit-transform: translateY(0px);
     transform: translateY(0px);
   }
 
   25%,
   75% {
+    -webkit-transform: translateY(-8px);
     transform: translateY(-8px);
   }
 
   50% {
+    -webkit-transform: translateY(8px);
     transform: translateY(8px);
   }
 
   100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}
+
+@keyframes animate {
+  0% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+
+  25%,
+  75% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+
+  50% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0px);
     transform: translateY(0px);
   }
 }
