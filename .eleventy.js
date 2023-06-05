@@ -70,6 +70,10 @@ module.exports = function (eleventyConfig) {
     });
   });
 
+  eleventyConfig.addFilter("formatNum", function (value) {
+    return new Intl.NumberFormat("en-CA").format(value);
+  });
+
   eleventyConfig.addCollection("fics", function (collection) {
     return collection.getFilteredByTag("fics").reverse();
   });
