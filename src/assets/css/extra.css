@@ -339,13 +339,21 @@ h2 + .header-anchor {
   order: 3;
 }
 
+.log-icon {
+  order: 4;
+}
+
 .log-title {
   flex-basis: 100%;
 }
 
+.log-dir {
+  font-size: 0.85em;
+}
+
 @media only screen and (min-width: 500px) {
   .log-date {
-    flex-basis: 25%;
+    flex-basis: 20%;
     order: initial;
     font-size: inherit;
   }
@@ -356,15 +364,16 @@ h2 + .header-anchor {
   }
 
   .log-title {
-    flex-basis: 60%;
+    flex-basis: 65%;
   }
 
   .log-icon {
-    flex-basis: 5%;
+    flex-basis: 10%;
+    order: 3;
   }
 
   .log-rating {
-    flex-basis: 10%;
+    flex-basis: 5%;
     text-align: right;
   }
 }
@@ -426,5 +435,57 @@ h2 + .header-anchor {
 
   100% {
     transform: translateY(0px);
+  }
+}
+
+/* ALERTS/ADMONITION/ASIDES */
+aside {
+  padding: 1rem;
+  border: 1px solid var(--background-blue);
+  background-color: var(--background-blue);
+  border-radius: 0.3rem;
+}
+
+aside:not(:last-of-type) {
+  margin-bottom: 1.5rem;
+}
+
+aside b,
+aside strong {
+  color: var(--color-blue);
+}
+
+aside i,
+aside em {
+  color: inherit;
+}
+
+aside p {
+  margin: 0;
+}
+
+aside.danger {
+  border-color: var(--color-red);
+  background-color: var(--background-red);
+}
+
+aside.danger b,
+aside.danger strong {
+  color: var(--color-red);
+}
+
+aside.warning {
+  border-color: var(--color-yellow);
+  background-color: var(--background-yellow);
+}
+
+aside.warning b,
+aside.warning strong {
+  color: var(--color-yellow);
+}
+
+@media screen and (max-width: 811px) {
+  aside.start {
+    margin-top: 7.5rem;
   }
 }

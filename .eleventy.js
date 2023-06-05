@@ -1,3 +1,7 @@
+/**
+ *  @param {import("@11ty/eleventy/src/UserConfig")} eleventyConfig
+ */
+
 const eleventyDevServer = "@11ty/eleventy-dev-server";
 const eleventyBrowsersync = "@11ty/eleventy-server-browsersync";
 const markdownIt = require("markdown-it");
@@ -80,6 +84,14 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addShortcode("sidenote", (message) => {
     return `<span class="marginnote">${message}</span>`;
+  });
+
+  eleventyConfig.addShortcode("sidenote", (message) => {
+    return `<span class="marginnote">${message}</span>`;
+  });
+
+  eleventyConfig.addShortcode("aside", (type, message, start = false) => {
+    return `<aside class="${type} ${start && "start"}">${message}</aside>`;
   });
 
   eleventyConfig.addPassthroughCopy("./src/assets/css");

@@ -4,18 +4,16 @@ dir: logs/movies
 layout: mainpage.njk
 ---
 
-↻ = rewatch
-
-## 2023 (WIP)
+## 2023
 
 {% include 'logmovie.liquid' %}
 
 ## <span class="wave hometitle"><span style="--i:1">P</span><span style="--i:2">r</span><span style="--i:3">i</span><span style="--i:4">d</span><span style="--i:5">e</span> <span style="--i:7">M</span><span style="--i:8">o</span><span style="--i:9">n</span><span style="--i:10">t</span><span style="--i:11">h</span> <span style="--i:13">2</span><span style="--i:14">0</span><span style="--i:15">2</span><span style="--i:16">3</span></span> watchlist
 
 - [x] Atomic Blonde (2017) ↻
-- [ ] Y tu mamá también (2001)
-- [ ] Bound (1996)
-- [ ] But I'm a Cheerleader (2000) ↻
+- [x] Y tu mamá también (2001)
+- [x] Bound (1996)
+- [x] But I'm a Cheerleader (2000) ↻
 - [ ] Girl, Interrupted (2000)
 - [ ] D.E.B.S. (2005)
 - [ ] Saving Face (2005) ↻

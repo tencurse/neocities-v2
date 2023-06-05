@@ -7,6 +7,7 @@ dir: resources
 ## Web development
 
 - [Web development resources](/resources/dev) – my own curated list of web dev resources that have helped me in my path of webmastery
+- [Addy's Toolkit](https://toolkit.addy.codes/) – curated and regularly maintained resources for web development and everything in between
 
 ## Digital gardening
 

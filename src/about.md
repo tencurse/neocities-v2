@@ -20,7 +20,9 @@ What am I doing [now](/now)?
 - <a href="https://femslashes.tumblr.com/" rel="me">Tumblr</a>
 - <a href="https://twitter.com/10kph" rel="me">Twitter</a>
 - <a href="https://archiveofourown.org/users/symmetra" rel="me">Archive of our own</a>
-- <a rel="me" href="https://mas.to/@10kph">Fediverse</a>
+- Fediverse:
+  - <a rel="me" href="https://tech.lgbt/@kirsten">@kirsten@tech.lgbt</a>
+  - <a rel="me" href="https://fandom.ink/@kirsten">@kirsten@fandom.ink</a>
 
 ## About the site
 
