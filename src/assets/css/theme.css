@@ -188,7 +188,7 @@ html[data-theme="horizondark"] {
   --color-teal: #59e3e3;
   --color-violet: #ec5d93;
 
-  --color-gray: #2e303e;
+  --color-gray: #a1877a;
   --color-border: #6c6f9380;
 
   /* PRISM */
@@ -229,7 +229,7 @@ html[data-theme="horizonbright"] {
   --color-teal: #1d8991;
   --color-violet: #bb4ea1;
 
-  --color-gray: #2e303e;
+  --color-gray: #ab8468;
   --color-border: #6c6f9380;
 
   /* PRISM */
