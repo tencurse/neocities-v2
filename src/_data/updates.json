@@ -1,7 +1,11 @@
 [
   {
+    "date": "2023-06-06",
+    "update": "Changed blog archive design to a much simpler layout"
+  },
+  {
     "date": "2023-06-05",
-    "update": "Changed arrow symbol for external links, added filter format for numbers (word count), removed wave text animation (it's not working in Chromium browsers for some reason!?!?!"
+    "update": "Changed arrow symbol for external links, added filter format for numbers (word count), removed wave text animation (it's not working in Chromium browsers for some reason!?!?!)"
   },
   {
     "date": "2023-06-03",

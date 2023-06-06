@@ -1,12 +1,12 @@
 ---
 title: I won Succession bingo
-subtitle: "I’m very normal about _Succession_"
+subtitle: "I’m very normal about <i>Succession</i>"
 excerpt: "Succession (2018), the TV series, reached its conclusion last Sunday, May 28th, 2023. As part of my totally normal grieving process, I present to you a bingo card I made before Season 4 aired and what it looks like now. **Spoilers abound!**"
 ---
 
-{% aside "danger" "<p><b>Mature content ahead</b>, specifically: talking about death and miscarriage.</p>", true %}
+{% aside "danger" "<p><b>Mature content ahead</b>, specifically: talking about death and miscarriage.</p>" %}
 
-{% aside "warning" "<p><b><i>Succession</i> spoilers ahead!</b></p>", false %}
+{% aside "warning" "<p><b><i>Succession</i> spoilers ahead!</b></p>" %}
 
 _Succession (2018)_, the TV series, reached its conclusion last Sunday, May 28th, 2023. As part of my _totally normal_ grieving process, I present to you a bingo card I made before Season 4 aired and what it looks like after.
 
