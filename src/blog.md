@@ -15,23 +15,15 @@ pagination:
 
 Welcome to my blog, where I talk to the void and use copious amounts of footnotes.
 
-</section>
-
 {% if collections.posts %}
+
+  <ul class="blog-list">
 {% for post in posts %}
 
-<section class="content">
-<p>
+{% include 'bloglist.njk' %}
 
-## <a href="{{ post.url }}" class="post">{{ post.data.title }}</a>
-
-<span class="post-date">{{ post.page.date | toUTC }}</span>
-
-> {{ post.data.excerpt }}
-
-<a href="{{ post.url }}">Read more →</a>
-
-</p>
-</section>
 {% endfor %}
+
+  </ul>
+</section>
 {% endif %}

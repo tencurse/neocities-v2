@@ -24,23 +24,19 @@ Thanks for visiting and take care!
 
 <section class="content">
 
-## Latest blog post
+## Recent blog posts
 
-{% assign postList = collections.posts | reverse %}
-{% assign firstPost = postList | first %}
+<ul class="blog-list">
+{% assign posts = collections.posts | reverse %}
+{% assign posts = posts | slice: 0, 3%}
+{% for post in posts %}
 
-<h3><a href="{{ firstPost.url }}" class="post">{{ firstPost.data.title }}</a></h3>
+{% include 'bloglist.njk' %}
 
-<span class="post-date">{{ firstPost.page.date | toUTC }}</span>
+{% endfor %}
 
-> {{ firstPost.data.excerpt }}
-
-<a href="{{ firstPost.url }}">Read more →</a>
-
-**[Go to the archive →](/blog/)**
-
+</ul>
 </section>
-
 {% endif %}
 
 {% assign ficLength = collections.fics | size %}
