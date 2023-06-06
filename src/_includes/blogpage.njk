@@ -12,6 +12,11 @@ layout: base.njk
       <strong>Posted:</strong> {{ page.date | toUTC }}
     </span>
   </p>
+  {% if subtitle %}
+  <blockquote>
+    <p>{{ subtitle | safe }}</p>
+  </blockquote>
+  {% endif %}
   {{ content | safe }}
 </section>
 <section class="content pagination">

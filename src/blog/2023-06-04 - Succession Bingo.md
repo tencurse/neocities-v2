@@ -1,6 +1,6 @@
 ---
 title: I won Succession bingo
-subtitle: "I’m very normal about _Succession_"
+subtitle: "I’m very normal about <i>Succession</i>"
 excerpt: "Succession (2018), the TV series, reached its conclusion last Sunday, May 28th, 2023. As part of my totally normal grieving process, I present to you a bingo card I made before Season 4 aired and what it looks like now. **Spoilers abound!**"
 ---
 
