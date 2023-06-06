@@ -4,7 +4,7 @@ dir: changelog
 layout: mainpage.njk
 ---
 
-Check out the [Kanban board](https://github.com/users/tencurse/projects/1)!
+Check out the [Kanban board](https://github.com/users/tencurse/projects/1/views/1)!
 
 {% for update in updates%}
 

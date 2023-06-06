@@ -6,7 +6,7 @@ layout: mainpage.njk
 
 > _“Don’t let perfect be the enemy of good enough.”_ —some guy probably
 
-Check out the [Kanban board](https://github.com/users/tencurse/projects/1)!
+Check out the [Kanban board](https://github.com/users/tencurse/projects/1/views/1)!
 
 ## Main quests
 
