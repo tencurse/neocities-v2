@@ -6,12 +6,14 @@
   font-family: "Libertinus Serif";
   src: url("../fonts/LibertinusSerif-Regular.woff") format("woff");
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Libertinus Serif";
   src: url("../fonts/LibertinusSerif-Italic.woff") format("woff");
   font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
@@ -19,6 +21,7 @@
   src: url("../fonts/LibertinusSerif-Semibold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -26,6 +29,7 @@
   src: url("../fonts/LibertinusSerif-SemiboldItalic.woff") format("woff");
   font-weight: 600;
   font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
@@ -33,6 +37,7 @@
   src: url("../fonts/LibertinusSerif-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -40,18 +45,21 @@
   src: url("../fonts/LibertinusSerif-BoldItalic.woff") format("woff");
   font-weight: 700;
   font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Inconsolata LGC Markup";
   src: url("../fonts/InconsolataLGCmarkup.otf");
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Inconsolata LGC Markup";
   src: url("../fonts/InconsolataLGCmarkup-Italic.otf");
   font-style: italic;
+  font-display: swap;
 }
 
 @font-face {
@@ -59,6 +67,7 @@
   src: url("../fonts/InconsolataLGCmarkup-Bold.otf");
   font-style: normal;
   font-weight: 600;
+  font-display: swap;
 }
 
 @font-face {
@@ -66,11 +75,22 @@
   src: url("../fonts/InconsolataLGCmarkup-BoldItal.otf");
   font-style: italic;
   font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Inconsolata;
+  src: url("../fonts/Inconsolata-VF.woff2") format("woff2 supports variations"),
+    url("../fonts/Inconsolata-VF.woff2") format("woff2-variations");
+  font-weight: 400 600;
+  font-display: swap;
+  font-style: normal;
 }
 
 section.fic-page,
 section.fic-page[data-font="mono"] {
-  font-family: "Inconsolata LGC Markup", "Courier New", Courier, monospace;
+  font-family: "Inconsolata LGC Markup", "Inconsolata", "Consolas",
+    "Courier New", Courier, monospace;
 }
 
 section.fic-page,
