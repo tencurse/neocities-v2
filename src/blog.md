@@ -8,6 +8,14 @@ dir: blog
 
 # ~{% if tag != 'home' %}{{ '/' | concat: dir }}{% endif %}{% if tag == 'home' %}{{ ' ' | concat: title }}{% endif %}
 
+<pre class="ascii">
+　 　 ∧,,∧
+　　 (; ・ω・）
+＿_ (__つ/￣￣￣/＿ 
+　 　 ＼/　　　　 / 
+　　　　 ￣￣￣ 　　
+</pre>
+
 Welcome to my blog, where I talk to the void and use copious amounts of footnotes.
 
 {% if collections.posts %}

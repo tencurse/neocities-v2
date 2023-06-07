@@ -4,6 +4,18 @@ dir: about
 layout: mainpage.njk
 ---
 
+<pre class="ascii">
+  　　　∧∧
+  　　（　･ω･）
+  　 ＿|　⊃／(＿＿_　
+  ／　└-(＿＿＿_／
+  ￣￣￣￣￣￣￣
+  
+  　 ＜,⌒／ヽ-、_＿_
+  ／＜,3/＿＿＿＿／
+  ￣￣￣￣￣￣  
+</pre>
+
 > Just wanted to get the gang together early in my tenure to say... Yo.
 
 Howdy! I’m **Kirsten (she/her)**. Software developer by day, fiction writer by (mid)night. I play the bass guitar as a hobby, largely inspired by Mitski and Arctic Monkeys. I love Linux systems and how endlessly customizable they are. I enjoy playing video games and watching people play video games.
@@ -40,6 +52,7 @@ See the source code on [Github](https://github.com/tencurse/neocities){% footnot
 - [TufteCSS](https://github.com/edwardtufte/tufte-css) - CSS stylesheet used as a base for this site
 - [deploy-to-neocities](https://deploy-to-neocities.neocities.org/) – Quick setup to automatically deploy your changes to Neocities using a GitHub workflow
 - [Inconsolata LGC Markup](https://bdtechconcepts.com/Inconsolata-LGC-Markup-Font.html) - variation of Inconsolata font with Italics
+- [2chのかわいいAA/顔文字まとめ ](https://2ch-aa.blogspot.com/) - Kaomoji / ASCII art credit
 - [agnoster ohmyzsh theme](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#agnoster) – Aesthetic inspiration for the navigation. I also use this theme for my personal Linux terminal.
 - [neofetch](https://github.com/dylanaraps/neofetch) – This is what the user info in the about page references. This command has a lot of other derivatives, and [pfetch](https://github.com/dylanaraps/pfetch) is my personal favourite.
 - [Tokyo Night](https://github.com/folke/tokyonight.nvim) – Colour scheme used for the website and syntax highlighting. Light theme is tweaked a little for better contrast. Find more terminal colour schemes [here](https://gogh-co.github.io/Gogh/).

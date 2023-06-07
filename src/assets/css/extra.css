@@ -132,6 +132,31 @@ button.dir2::after {
   z-index: -1;
 }
 
+
+/* ASCII FETCH */
+.fetch-box {
+  display:flex;
+  align-items: flex-start;
+}
+
+.ascii {
+  background-color: transparent;
+  letter-spacing: normal;
+  font-family: 'MS PGothic';
+  line-height: 1;
+  padding: 1em;
+}
+
+.fetch-box .ascii {
+  padding:0 1.5em;
+}
+
+@media screen and (max-width: 811px) {
+  .fetch-box {
+    flex-direction: column;
+  }
+}
+
 table.fetch {
   margin-left: 0px;
   margin-right: auto;
