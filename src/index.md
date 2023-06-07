@@ -8,9 +8,19 @@ tag: home
 
 # ~ Welcome to my <span class="wave hometitle">digital garden</span>
 
+<pre class="ascii">
+　　　 　  ∧,,∧
+　　　　） (´･ω･) 　 　 　 　H e l l o !
+　　　 (　 ( つ/￣￣￣/　
+　　(´[_]　＼/＿＿＿/)
+　　 [i＝========＝i]
+　　　 _｡_　 　
+　 Ｃ(＿ｱ
+</pre>
+
 Howdy! I'm **Kirsten (she/her)**. Software developer by day, fiction writer by (mid)night.
 
-I hope to create my own little digital garden{% footnoteNum %}{% footnote "Not to be confused with the [note–taking term](https://github.com/MaggieAppleton/digital-gardeners#what-is-digital-gardening) or [Zettelkasten](https://zettelkasten.de/posts/overview/), but in the future it may evolve to that!" %}, planted with my [thoughts](/blog) and my [works](/writing).
+I hope to create my own little digital garden{% footnoteNum %}{% footnote "Not to be confused with the [note–taking term](https://github.com/MaggieAppleton/digital-gardeners#what-is-digital-gardening) or [Zettelkasten](https://zettelkasten.de/posts/overview/), but in the future it may evolve to that!" %}, planted with my [thoughts](/blog) and my [works](/projects).
 
 Here's a [map](/sitemap), go forth and explore!
 
@@ -37,44 +47,6 @@ Thanks for visiting and take care!
 
 </ul>
 </section>
-{% endif %}
-
-{% assign ficLength = collections.fics | size %}
-
-{% if ficLength > 0 %}
-
-<section class="content">
-
-## Latest fic
-
-{% assign fic = collections.fics | first %}
-
-<div class="fic">
-<h3>
-<a href="{{ fic.page.url }}" class="post">{{ fic.data.title }}</a></h3>
-{% case fic.data.content_rating %}{% when 'Explicit' %}<span class="stat explicit">{% when 'Mature' %}<span class="stat explicit">{% when 'Teen and Up' %}<span class="stat teen">{% when 'Gen' %}<span class="stat teen">{% else %}<span class="stat">{% endcase %}[ {{ fic.data.content_rating }} ]</span><span class="stat ship">[ {{ fic.data.relationships }} ]</span>{% if fic.data.status == 'Completed' %}<span class="stat completed">[ {{ fic.data.status }} ]</span>{% else %}<span class="stat wip">[ {{ fic.data.status }} ]</span>{% endif %}
-
-**Content Warning:**
-{%- for warning in fic.data.content-warning -%}<span>{{ warning }}{%- if warning != fic.data.content-warning.last -%},{%- endif -%}</span>{% endfor %}
-**Fandom:** {{ fic.data.fandom }}
-{% if fic.data.ship %}**Ships:**
-{%- for rel in fic.data.ship -%}
-<span>{{ rel }}{%- if rel != fic.data.ship.last -%},{%- endif -%}</span>
-{%- endfor -%}
-{% endif %}
-**Word Count:** {{ fic.data.word-count | formatNum }} | **Chapters:** {{ fic.data.chapters }}
-**Published:** {{ fic.data.date | toUTC }}{% if fic.data.status == 'Completed' and fic.data.chapters > 1  %} to {{ fic.data.date_completed | toUTC }} {% endif %}
-
-> {{ fic.data.excerpt }}
-
-<a href="{{ fic.url }}">Read more →</a>
-
-**[See more works →](/writing/)**
-
-</div>
-
-</section>
-
 {% endif %}
 
 <section class="content">

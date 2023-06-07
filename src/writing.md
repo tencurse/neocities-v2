@@ -2,6 +2,7 @@
 title: Writing
 dir: writing
 layout: homepage.njk
+permalink: false
 # pagination:
 #   data: collections.fics
 #   size: 5
@@ -49,7 +50,7 @@ Works are sorted by most recently published.
 <span>{{ rel }}{%- if rel != fic.data.ship.last -%},{%- endif -%}</span>
 {%- endfor -%}
 {% endif %}
-**Word Count:** {{ fic.data.word-count }} | **Chapters:** {{ fic.data.chapters }}
+**Word Count:** {{ fic.data.word-count | formatNum }} | **Chapters:** {{ fic.data.chapters }}
 **Published:** {{ fic.data.date | toUTC }}{% if fic.data.status == 'Completed' and fic.data.chapters > 1  %} to {{ fic.data.date_completed | toUTC }} {% endif %}
 
 > {{ fic.data.excerpt }}
