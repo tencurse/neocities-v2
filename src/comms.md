@@ -10,7 +10,7 @@ layout: homepage.njk
 
 Hi there, leave a message if you'd like!
 
-Or contact me privately via 10kph@pm.me ~
+Contact me privately via 10kph\<at\>pm\<dot\>me or on the Fediverse: [@kirsten@tech.lgbt](https://tech.lgbt/@kirsten)
 
 </section>
 
