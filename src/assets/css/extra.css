@@ -626,3 +626,11 @@ p.blog-date {
     text-align: left;
   }
 }
+
+/* UPDATES */
+span.update-date {
+  color: var(--color-blue);
+  font-weight: 600;
+  background-color: var(--background-blue);
+  padding: 0.25em 0.5em;
+}
