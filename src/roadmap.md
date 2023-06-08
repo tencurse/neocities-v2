@@ -18,9 +18,7 @@ Check out the [Kanban board](https://github.com/users/tencurse/projects/1/views/
 - [x] Add a page for dev tools/resources
 - [x] Create a sitemap
 - [x] Remake dark mode button into ~~toggle~~ dropdown
-- [x] Add next/previous post/chapter in blogs ([example at the bottom](https://hugo-terminal.vercel.app/posts/markdown-syntax))
-- [ ] Upload my fics (in progress)
-- [x] Implement fic pagination
+- [x] Add next/previous post/chapter in blogs
 - [ ] Create an RSS XML for the blog
 - [ ] Use [11ty navigation](https://www.11ty.dev/docs/plugins/navigation/) plugin
 - [ ] Implement breadcrumb navigation
@@ -33,15 +31,14 @@ Check out the [Kanban board](https://github.com/users/tencurse/projects/1/views/
 - [x] Add `::selection` style
 - [x] Add a favicon
 - [x] Implement footnotes
-- [x] Join some webrings! (in progress)
-- [ ] Implement a blog tagging system (Difficulty: Intermediate)
-- [ ] Implement a fic filter system (Difficulty: over 9000)
+- [x] Join some webrings!
+- [ ] Implement a blog tagging system (Difficulty: Intermediate?)
 - [x] Customize scrollbar
 - [x] Setup GitHub workflow for automated deployment
 - [x] Show indicator for external links
 - [x] Add more colour schemes? (use this [tutorial](https://lukelowrey.com/css-variable-theme-switcher/))
 - [x] Add font drop down on fic page
-- [x] Remake blog archive [inspo](https://tympanus.net/Development/MenuHoverEffects/tsula.html)
+- [x] Remake blog archive
 - [ ] Add a button page for my favourite websites
 - [x] Make images and iframes responsive
 - [x] Make a cute site button (Not yet uploaded)

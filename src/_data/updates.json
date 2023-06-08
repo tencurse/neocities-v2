@@ -1,5 +1,9 @@
 [
   {
+    "date": "2023-06-08",
+    "update": "Added new webring!"
+  },
+  {
     "date": "2023-06-07",
     "update": "Removed _Writing_ page, added ASCII/Kaomoji on some pages, added _Bass_ log page, added fallback fonts"
   },

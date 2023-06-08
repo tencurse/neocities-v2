@@ -25,7 +25,7 @@ What am I doing [now](/now)?
 ## Where to find me
 
 - Leave a message on my [chatbox/guestbook](/comms)
-- Or send an email: 10kph@pm.me
+- Or send an email: 10kph\<at\>pm\<dot\>me
 - [Neocities profile](https://neocities.org/site/10kph)
 - <a href="https://femslashes.tumblr.com/" rel="me">Tumblr</a>
 - <a href="https://twitter.com/10kph" rel="me">Twitter</a>
