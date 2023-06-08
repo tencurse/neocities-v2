@@ -142,7 +142,7 @@ button.dir2::after {
 .ascii {
   background-color: transparent;
   letter-spacing: normal;
-  font-family: 'MS PGothic';
+  font-family: 'MS PGothic', 'MS Gothic', monospace;
   line-height: 1;
   padding: 1em;
 }

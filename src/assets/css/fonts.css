@@ -40,7 +40,7 @@
 
 @font-face {
   font-family: Inconsolata;
-  src: url("../fonts/Inconsolata-VF.woff2") format("woff2 supports variations"),
+  src: local('Inconsolata'), url("../fonts/Inconsolata-VF.woff2") format("woff2 supports variations"),
     url("../fonts/Inconsolata-VF.woff2") format("woff2-variations");
   font-weight: 400 600;
   font-display: swap;
