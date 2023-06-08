@@ -243,6 +243,19 @@ div#neossg tr td {
   padding: 0 2px;
 }
 
+div#linuxring {
+  padding: 0;
+}
+
+div#linuxring table {
+  background-color: var(--background-primary);
+  color: var(--color-primary);
+}
+
+div#linuxring td a {
+  color: var(--color-yellow);
+}
+
 p,
 dl,
 ol,
