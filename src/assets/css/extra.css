@@ -560,6 +560,15 @@ aside.warning strong {
   color: var(--color-yellow);
 }
 
+aside.success {
+  color: var(--color-green);
+  background-color: var(--background-green);
+}
+
+aside.success b, aside.success strong {
+  color: var(--color-green);
+}
+
 @media screen and (max-width: 811px) {
   aside.start {
     margin-top: 7.5rem;
