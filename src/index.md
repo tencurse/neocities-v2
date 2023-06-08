@@ -53,9 +53,9 @@ Thanks for visiting and take care!
 
 ## Site updates
 
-{% assign firstUpdate = updates | first %}
+{% assign update = updates | first %}
 
-**{{ firstUpdate.date  | toUTC }}:** {{ firstUpdate.update }}
+<span class="update-date">{{ update.date | toUTC }}</span> {{ update.update }}
 
 **[See more updates →](/changelog)**
 

@@ -8,7 +8,7 @@ Check out the [Kanban board](https://github.com/users/tencurse/projects/1/views/
 
 {% for update in updates%}
 
-**{{ update.date | toUTC }}:** {{ update.update }}
+<span class="update-date">{{ update.date | toUTC }}</span> {{ update.update }}
 
 {% endfor %}
 
