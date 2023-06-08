@@ -41,7 +41,7 @@ Check out the [Kanban board](https://github.com/users/tencurse/projects/1/views/
 - [x] Show indicator for external links
 - [x] Add more colour schemes? (use this [tutorial](https://lukelowrey.com/css-variable-theme-switcher/))
 - [x] Add font drop down on fic page
-- [ ] Remake blog archive [inspo](https://tympanus.net/Development/MenuHoverEffects/tsula.html)
+- [x] Remake blog archive [inspo](https://tympanus.net/Development/MenuHoverEffects/tsula.html)
 - [ ] Add a button page for my favourite websites
 - [x] Make images and iframes responsive
 - [x] Make a cute site button (Not yet uploaded)
