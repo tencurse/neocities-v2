@@ -120,6 +120,16 @@ var divs = document.querySelectorAll("div"),
 for (i = 0; i < divs.length; ++i) {
   divs[i].style.color = "green";
 }
+
+function testLigatures(value) {
+  if (value <= 500 && value >= 300) {
+    return () => "middle";
+  } else if (typeof value === "number") {
+    return (value) => value.toString();
+  } else if (typeof value === "undefined") {
+    return () => {};
+  }
+}
 ```
 
 Monospace Text wrapped in "pre" tags:

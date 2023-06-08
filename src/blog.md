@@ -18,6 +18,8 @@ dir: blog
 
 Welcome to my blog, where I talk to the void and use copious amounts of footnotes.
 
+<br/>
+
 {% if collections.posts %}
 {% assign posts = collections.posts | reverse %}
 

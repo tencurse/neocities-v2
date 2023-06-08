@@ -21,3 +21,7 @@ layout: mainpage.njk
 
 - [Archive of our own](https://archiveofourown.org/users/symmetra) (Link warning: Explicit content) – mostly *Genshin Impact* fanfiction… please don’t judge lol
   - I am also working on archiving my works on another personal site, but I’m keeping that under wraps for now until it’s ready ^\_^
+
+## Etc
+
+- [Logs](/logs) – media diary of sorts (WIP)
