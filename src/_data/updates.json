@@ -1,5 +1,9 @@
 [
   {
+    "date": "2023-06-07",
+    "update": "Removed _Writing_ page, added ASCII/Kaomoji on some pages, added _Bass_ log page, added fallback fonts"
+  },
+  {
     "date": "2023-06-06",
     "update": "Changed blog archive design to a much simpler layout, self-hosted Inconsolata variable font"
   },

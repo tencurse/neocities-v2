@@ -53,8 +53,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding-left: 12.5%;
-  font-family: "Inconsolata LGC Markup", "Lucida Sans", "Lucida Sans Regular",
-    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Inconsolata LGC Markup", "Inconsolata", "Lucida Sans Unicode", 'Courier New', Courier, monospace;
   max-width: 1400px;
   counter-reset: sidenote-counter;
 }
@@ -102,7 +101,7 @@ h3 {
 
 h2,
 h3 {
-  font-family: "Inconsolata";
+  font-family: "Inconsolata", "Lucida Sans Unicode", 'Courier New', Courier, monospace;
   font-style: normal;
   font-stretch: semi-condensed;
 }
