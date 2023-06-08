@@ -4,6 +4,14 @@ dir: projects
 layout: mainpage.njk
 ---
 
+<pre class="ascii">
+〃∩ ∧＿∧ 　　crick
+⊂⌒（ 　・ω・）　　　crick
+　 ｀ヽ_っ＿/￣￣￣/ ζ
+　 　 　 ＼/ 　　 /　旦
+　　　　　　￣￣￣
+</pre>
+
 ## Code
 
 - [Website source code](https://github.com/tencurse/neocities) – Feel free to clone and play around with it!
