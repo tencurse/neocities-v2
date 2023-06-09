@@ -3,7 +3,7 @@ title: Nuking stylesheets without destroying your site
 subtitle: Design advice(?) from a non–designer
 ---
 
-{% aside "success" "<b>TL;DR:</b> Creating prototypes helps you think about the design beforehand (e.g., desktop and mobile layouts, etc.), so you can avoid rewriting code over and over (which was my case). Using prototype software, or any photo editing/art software, can help you with this."%}
+{% aside "success" "<b>TL;DR:</b> Creating prototypes helps you think about the design beforehand (e.g., desktop and mobile layouts, etc.), so you can avoid rewriting code over and over (which was my case). Using prototyping software, or any photo editing/art software, can help you with this."%}
 
 Obligatory disclaimer that I am not a professional designer, so please take this blog post with a spoonful of salt.{% footnoteNum %}{% footnote "And I am sure someone else has already said the same thing, but better and with less meandering introductions. But this is my website, my rules!!!11!1!"%}
 
