@@ -3,7 +3,7 @@ title: Nuking stylesheets without destroying your site
 subtitle: Design advice(?) from a non–designer
 ---
 
-{% aside "success" "<b>TL;DR:</b> Creating prototypes helps you think about the design beforehand (e.g., desktop and mobile layouts, etc.), so you can avoid rewriting code over and over (which was my case). Using prototyping software, or any photo editing/art software, can help you with this."%}
+{% aside "success" "<p><b>TL;DR:</b> Creating prototypes helps you think about the design beforehand (e.g., desktop and mobile layouts, etc.), so you can avoid rewriting code over and over (which was my case). Using prototyping software, or any photo editing/art software, can help you with this.</p>"%}
 
 Obligatory disclaimer that I am not a professional designer, so please take this blog post with a spoonful of salt.{% footnoteNum %}{% footnote "And I am sure someone else has already said the same thing, but better and with less meandering introductions. But this is my website, my rules!!!11!1!"%}
 
@@ -90,7 +90,7 @@ The red vertical lines are grid overlays, so I can align everything consistently
 
 I don’t know if this will be the final version, but it was a really good exercise for me to create designs without the constraints of coding. The great thing about it is that if I ever decide to not go with this design, it’s not really a big deal to delete it or just create a new file or save it for later.
 
-Implementing a prototype is *also* a different monster, and it will be a first for me! This time I am experimenting with [Astro](https://astro.build/), just to add another layer of challenge.{% footnoteNum %}{% footnote "Again, you don’t have to do this. Vanila HTML and CSS can already be good enough." %}
+Implementing a prototype is *also* a different monster, and it will be a first for me! This time I am experimenting with [Astro](https://astro.build/), just to add another layer of challenge.{% footnoteNum %}{% footnote "Again, you don’t have to do this. Vanilla HTML and CSS can already be good enough." %}
 
 ### It doesn’t have to end there
 
