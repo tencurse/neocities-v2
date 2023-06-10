@@ -3,7 +3,7 @@
 a[href^="http"]::after,
 a[href^="https://"]::after
 {
-  content: "🡥";
+  content: "\01F865";
   margin-left: 4px;
   display: inline-block;
   font-style: normal;
