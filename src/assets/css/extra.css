@@ -23,7 +23,7 @@ button {
 }
 
 button.btn {
-  font-family: "Inconsolata LGC Markup";
+  font-family: "JuliaMono", "Inconsolata", 'Courier New', Courier, monospace;
   font-weight: 500;
   cursor: pointer;
   font-size: 0.9rem;
@@ -47,7 +47,7 @@ button.toggle-color-scheme {
   background-color: var(--color-blue);
   color: var(--background-primary);
   padding: 0 0.75rem;
-  font-size: 1.12rem;
+  font-size: 1rem;
   font-weight: 600;
   min-width: 190px;
 }
@@ -64,7 +64,7 @@ button.host,
 button.dir,
 button.dir2 {
   font-size: 1rem;
-  letter-spacing: -0.5px;
+  letter-spacing: -0.32px;
   font-weight: 600;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -149,6 +149,7 @@ button.dir2::after {
 
 .fetch-box .ascii {
   padding:0 1.5em;
+  margin:0;
 }
 
 @media screen and (max-width: 811px) {

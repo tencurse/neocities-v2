@@ -5,7 +5,7 @@ pre,
 kbd {
   background: var(--plain-backgroundColor);
   color: var(--plain-color);
-  font-family: "Inconsolata LGC Markup";
+  font-family: "JuliaMono", "Inconsolata", 'Courier New', Courier, monospace;
   direction: ltr;
   text-align: left;
   white-space: pre;

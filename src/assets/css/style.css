@@ -53,7 +53,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding-left: 12.5%;
-  font-family: "Inconsolata LGC Markup", "Inconsolata", "Lucida Sans Unicode", 'Courier New', Courier, monospace;
+  font-family: "JuliaMono", "Inconsolata", "Lucida Sans Unicode", 'Courier New', Courier, monospace;
   max-width: 1400px;
   counter-reset: sidenote-counter;
 }
@@ -79,39 +79,24 @@ h4 {
 h1 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
-  font-size: 2.25rem;
+  font-size: 2rem;
   line-height: 1;
 }
 
 h2 {
-  font-style: italic;
+  /* font-style: italic; */
   margin-top: 1.4rem;
   margin-bottom: 1.4rem;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   line-height: 1;
 }
 
 h3 {
-  font-style: italic;
-  font-size: 1.25rem;
+  /* font-style: italic; */
+  font-size: 1.4rem;
   margin-top: 2rem;
   margin-bottom: 1.4rem;
   line-height: 1;
-}
-
-h2,
-h3 {
-  font-family: "Inconsolata", "Lucida Sans Unicode", 'Courier New', Courier, monospace;
-  font-style: normal;
-  font-stretch: semi-condensed;
-}
-
-h2 {
-  font-size: 2rem;
-}
-
-h3 {
-  font-size: 1.75rem;
 }
 
 hr {
@@ -129,10 +114,6 @@ p.subtitle {
   font-size: 1rem;
   display: block;
   line-height: 1;
-}
-
-.numeral {
-  font-family: et-book-roman-old-style;
 }
 
 section.terminal,
@@ -261,7 +242,7 @@ dl,
 ol,
 ul {
   font-size: 1rem;
-  line-height: 2rem;
+  line-height: 1.75rem;
 }
 
 p {
@@ -301,10 +282,6 @@ a:visited {
 
 a:hover {
   color: var(--color-green);
-}
-
-code {
-  font-family: "Inconsolata LGC Markup";
 }
 
 /* Chapter Epigraphs */
@@ -435,13 +412,14 @@ img {
   clear: right;
   margin-right: -60%;
   width: 50%;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   line-height: 1.3;
   vertical-align: baseline;
   position: relative;
   border-top: 1px solid var(--color-border);
   padding-top: 0.5rem;
   margin-bottom: 1rem;
+  letter-spacing: -0.32px;
 }
 
 .marginnote.endnote {
@@ -508,7 +486,6 @@ section > table {
 
 div.table-wrapper {
   overflow-x: auto;
-  font-family: "Trebuchet MS", "Gill Sans", "Gill Sans MT", sans-serif;
 }
 
 code,
