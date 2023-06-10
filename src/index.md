@@ -44,6 +44,9 @@ Thanks for visiting and take care!
 {% endfor %}
 
 </ul>
+
+**[Go to blog →](/blog)**
+
 </section>
 {% endif %}
 
