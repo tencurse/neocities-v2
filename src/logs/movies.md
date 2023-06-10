@@ -14,7 +14,7 @@ layout: mainpage.njk
 - [x] Y tu mamá también (2001)
 - [x] Bound (1996)
 - [x] But I'm a Cheerleader (2000) ↻
-- [ ] Girl, Interrupted (2000)
+- [x] Girl, Interrupted (2000)
 - [ ] D.E.B.S. (2005)
 - [ ] Saving Face (2005) ↻
 - [ ] Brokeback Mountain (2005)
