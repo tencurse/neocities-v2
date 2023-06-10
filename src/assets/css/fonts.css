@@ -8,48 +8,51 @@
   font-display: swap;
 }
 
+
 @font-face {
-  font-family: "Inconsolata LGC Markup";
-  src: url("../fonts/InconsolataLGCmarkup.otf");
+  font-family: 'JuliaMono';
+  src: local('JuliaMono Regular'), local('JuliaMono-Regular'),
+      url('JuliaMono-Regular.woff2') format('woff2'),
+      url('JuliaMono-Regular.woff') format('woff');
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Inconsolata LGC Markup";
-  src: url("../fonts/InconsolataLGCmarkup-Italic.otf");
+  font-family: 'JuliaMono';
+  src: local('JuliaMono RegularItalic'), local('JuliaMono-RegularItalic'),
+      url('JuliaMono-RegularItalic.woff2') format('woff2'),
+      url('JuliaMono-RegularItalic.woff') format('woff');
+  font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Inconsolata LGC Markup";
-  src: url("../fonts/InconsolataLGCmarkup-Bold.otf");
-  font-style: normal;
+  font-family: 'JuliaMono';
+  src: local('JuliaMono SemiBoldItalic'), local('JuliaMono-SemiBoldItalic'),
+      url('JuliaMono-SemiBoldItalic.woff2') format('woff2'),
+      url('JuliaMono-SemiBoldItalic.woff') format('woff');
   font-weight: 600;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Inconsolata LGC Markup";
-  src: url("../fonts/InconsolataLGCmarkup-BoldItal.otf");
   font-style: italic;
-  font-weight: 600;
   font-display: swap;
 }
 
 @font-face {
-  font-family: Inconsolata;
-  src: local('Inconsolata'), url("../fonts/Inconsolata-VF.woff2") format("woff2 supports variations"),
-    url("../fonts/Inconsolata-VF.woff2") format("woff2-variations");
-  font-weight: 400 600;
-  font-display: swap;
+  font-family: 'JuliaMono';
+  src: local('JuliaMono SemiBold'), local('JuliaMono-SemiBold'),
+      url('JuliaMono-SemiBold.woff2') format('woff2'),
+      url('JuliaMono-SemiBold.woff') format('woff');
+  font-weight: 600;
   font-style: normal;
+  font-display: swap;
 }
+
 
 section.fic-page,
 section.fic-page[data-font="mono"] {
-  font-family: "Inconsolata LGC Markup", "Inconsolata", "Consolas",
+  font-family: "JuliaMono", "Inconsolata", "Consolas",
     "Courier New", Courier, monospace;
 }
 

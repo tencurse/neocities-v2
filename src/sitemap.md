@@ -4,6 +4,15 @@ dir: sitemap
 layout: mainpage.njk
 ---
 
+<pre class="ascii">
+　 　　　　　　　　∧_∧　 ∧_∧　 ∧_∧　 ∧_∧　 ∧_∧ 　∧_∧
+　　　　　　　____（´･ω･)（´･ω･)（´･ω･)（´･ω･)（´･ω･)（´･ω･)
+　　　　　 ／ ＼￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣￣ ＼
+　　　　 .<＼※ ＼＿＿_＿＿＿___＿＿_＿＿＿___＿＿_＿＿＿______ヽ
+　 　 　 　 ヽ＼ ※　※　※　※　※　※　※　※　※　※　※　※　※ ＼
+　　　　　　　 ＼`ー─────────────────────ヽ
+</pre>
+
 ## The webmaster
 
 - [about](/about) :: [now](/now)
@@ -17,6 +26,7 @@ layout: mainpage.njk
 - [comms](/comms) – chatbox and guestbook
 - [changelog](/changelog)
 - [roadmap](/roadmap)
+- [style guide](/styleguide)
 
 ## Resources
 

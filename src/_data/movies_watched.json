@@ -1,5 +1,13 @@
 [
   {
+    "Title": "Girl, Interrupted",
+    "Directors": ["James Mangold"],
+    "Rating": 4.5,
+    "Genres": ["Drama"],
+    "Year": 1999,
+    "DateWatched": "2023-06-08"
+  },
+  {
     "Title": "But I'm a Cheerleader",
     "Directors": ["Jamie Babbit"],
     "Rating": 5,

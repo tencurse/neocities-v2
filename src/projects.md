@@ -8,7 +8,7 @@ layout: mainpage.njk
 〃∩ ∧＿∧ 　　crick
 ⊂⌒（ 　・ω・）　　　crick
 　 ｀ヽ_っ＿/￣￣￣/ ζ
-　 　 　 ＼/ 　　 /　旦
+　 　 　 ＼/ 　  　  /　 旦
 　　　　　　￣￣￣
 </pre>
 
