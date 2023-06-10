@@ -49,7 +49,7 @@ See the source code on [Github](https://github.com/tencurse/neocities){% footnot
 - [11ty](https://www.11ty.dev/docs/getting-started/) – Simple, lightweight static site generator. Supports a bunch of templating languages.
 - [TufteCSS](https://github.com/edwardtufte/tufte-css) - CSS stylesheet used as a base for this site
 - [deploy-to-neocities](https://deploy-to-neocities.neocities.org/) – Quick setup to automatically deploy your changes to Neocities using a GitHub workflow
-- [Inconsolata LGC Markup](https://bdtechconcepts.com/Inconsolata-LGC-Markup-Font.html) - variation of Inconsolata font with Italics
+- [JuliaMono](https://juliamono.netlify.app/) - font used for the site
 - [2chのかわいいAA/顔文字まとめ ](https://2ch-aa.blogspot.com/) - Kaomoji / ASCII art credit
 - [agnoster ohmyzsh theme](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#agnoster) – Aesthetic inspiration for the navigation. I also use this theme for my personal Linux terminal.
 - [neofetch](https://github.com/dylanaraps/neofetch) – This is what the user info in the about page references. This command has a lot of other derivatives, and [pfetch](https://github.com/dylanaraps/pfetch) is my personal favourite.
