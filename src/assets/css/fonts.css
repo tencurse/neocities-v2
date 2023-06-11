@@ -1,59 +1,57 @@
 @font-face {
-  font-family: 'MS PGothic';
-  src: local('MS PGothic'), local('MS-PGothic'),
-      url('MS-PGothic.woff2') format('woff2'),
-      url('MS-PGothic.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-
-@font-face {
-  font-family: 'JuliaMono';
-  src: local('JuliaMono Regular'), local('JuliaMono-Regular'),
-      url('JuliaMono-Regular.woff2') format('woff2'),
-      url('JuliaMono-Regular.woff') format('woff');
+  font-family: "MS PGothic";
+  src: local("MS PGothic"), local("MS-PGothic"),
+    url("../fonts/MS-PGothic.woff2") format("woff2"),
+    url("../fonts/MS-PGothic.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'JuliaMono';
-  src: local('JuliaMono RegularItalic'), local('JuliaMono-RegularItalic'),
-      url('JuliaMono-RegularItalic.woff2') format('woff2'),
-      url('JuliaMono-RegularItalic.woff') format('woff');
+  font-family: "JuliaMono";
+  src: local("JuliaMono Regular"), local("JuliaMono-Regular"),
+    url("../fonts/JuliaMono-Regular.woff2") format("woff2"),
+    url("../fonts/JuliaMono-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "JuliaMono";
+  src: local("JuliaMono RegularItalic"), local("JuliaMono-RegularItalic"),
+    url("../fonts/JuliaMono-RegularItalic.woff2") format("woff2"),
+    url("../fonts/JuliaMono-RegularItalic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'JuliaMono';
-  src: local('JuliaMono SemiBoldItalic'), local('JuliaMono-SemiBoldItalic'),
-      url('JuliaMono-SemiBoldItalic.woff2') format('woff2'),
-      url('JuliaMono-SemiBoldItalic.woff') format('woff');
+  font-family: "JuliaMono";
+  src: local("JuliaMono SemiBoldItalic"), local("JuliaMono-SemiBoldItalic"),
+    url("../fonts/JuliaMono-SemiBoldItalic.woff2") format("woff2"),
+    url("../fonts/JuliaMono-SemiBoldItalic.woff") format("woff");
   font-weight: 600;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'JuliaMono';
-  src: local('JuliaMono SemiBold'), local('JuliaMono-SemiBold'),
-      url('JuliaMono-SemiBold.woff2') format('woff2'),
-      url('JuliaMono-SemiBold.woff') format('woff');
+  font-family: "JuliaMono";
+  src: local("JuliaMono SemiBold"), local("JuliaMono-SemiBold"),
+    url("../fonts/JuliaMono-SemiBold.woff2") format("woff2"),
+    url("../fonts/JuliaMono-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
-
 
 section.fic-page,
 section.fic-page[data-font="mono"] {
-  font-family: "JuliaMono", "Inconsolata", "Consolas",
-    "Courier New", Courier, monospace;
+  font-family: "JuliaMono", "Inconsolata", "Consolas", "Courier New", Courier,
+    monospace;
 }
 
 section.fic-page,
