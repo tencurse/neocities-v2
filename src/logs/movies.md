@@ -15,7 +15,7 @@ layout: mainpage.njk
 - [x] Bound (1996)
 - [x] But I'm a Cheerleader (2000) ↻
 - [x] Girl, Interrupted (2000)
-- [x] D.E.B.S. (2005)
+- [x] D.E.B.S. (2004)
 - [ ] Saving Face (2005) ↻
 - [ ] Brokeback Mountain (2005)
 - [ ] Imagine Me & You (2006)
