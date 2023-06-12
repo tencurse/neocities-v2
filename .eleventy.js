@@ -98,6 +98,25 @@ module.exports = function (eleventyConfig) {
     return `<aside class="${type}">${message}</aside>`;
   });
 
+  eleventyConfig.addShortcode("renderStar", (rating) => {
+    const star = "★";
+    const halfStar = "⯪";
+
+    let stars = "";
+
+    while (rating-- > 0) {
+      if (rating !== 1.5) {
+        stars += star;
+      }
+    }
+
+    if (rating % 1 !== 0) {
+      stars += halfStar;
+    }
+
+    return stars;
+  });
+
   eleventyConfig.addPassthroughCopy("./src/assets/css");
   eleventyConfig.addPassthroughCopy("./src/assets/fonts");
   eleventyConfig.addPassthroughCopy("./src/assets/js");
