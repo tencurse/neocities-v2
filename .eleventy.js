@@ -100,7 +100,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addShortcode("renderStar", (rating) => {
     const star = "★";
-    const halfStar = "⯪";
+    const halfStar = "⯨";
 
     let stars = "";
 
