@@ -8,12 +8,13 @@ dir: resources/dev
 
 - [MDN Web Docs](https://developer.mozilla.org/en-US/) – docs for HTML/CSS/JavaScript. I keep coming back to this because it has great examples to follow–along.
 - [DevDocs](https://devdocs.io/) – API docs for just about any language/framework/etc. It has a search function so you can search through all of the docs, and you can also download it offline.
-- [11ty](https://www.11ty.dev/docs/) – Docs for the static site generator I used to build this website.
+- [11ty](https://www.11ty.dev/docs/) – Docs for the static site generator I used to build this website. There’s a tutorial below on how to create your site with 11ty!
 
 ## Tutorials
 
-- [The Odin Project](https://www.theodinproject.com/) – The ultimate web development online course. It’s free and extensive. Teaches the basics of the basics. Highly recommend!
-  - The biggest hurdle here is that it asks you to dual–boot Linux if you’re on Windows.{% footnoteNum %}{% footnote "I promise it’s worth it. Once you start using Linux for coding, you’ll never go back. Also, you don’t have to use Ubuntu, but it’s a good beginner distro." %} You can [install WSL instead](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-11-with-gui-support#1-overview), but it’s not supported, i.e., if you encounter any problems, the community won’t be able to help you.
+- [**The Odin Project**](https://www.theodinproject.com/) – The ultimate web development online course. It’s free and extensive. Teaches the basics of the basics. Highly recommend!
+  - The biggest hurdle here is that it asks you to dual–boot Linux if you’re on Windows.{% footnoteNum %}{% footnote "I promise it’s worth it. Once you start using Linux for coding, you’ll never go back. Also, you don’t have to use Ubuntu, but it’s a good beginner distro." %} You can [install WSL instead](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-11-with-gui-support#1-overview), but it’s not officially supported by the Project’s community.
+- [**Create a static site using 11ty and deploy to neocities**](https://flamedfury.com/guides/11ty-homepage-neocities/) – The holy grail tutorial that helped me so I never have to use `<iframe>`s for navigation menus, and now you don’t have to, too.
 - [The Modern JavaScript Tutorial](https://javascript.info/) – Great for both beginners and advanced users, though some of it may be _too_ advanced.
 - [A Complete Guide to Dark Mode on the Web](https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web) – CSS Tricks tutorial on implementing dark mode on your website
   - [Simple dark mode with CSS variables](https://lukelowrey.com/css-variable-theme-switcher/) – A quick and easy tutorial on implementing dark mode if you don’t have time for the fundamentals
@@ -28,15 +29,15 @@ If you write code, you _must_ use version control of some kind. [Git](https://gi
 - [Learn Git Branching](https://learngitbranching.js.org/) – Interactive tutorial for Git branching. Fun to use, but not for you if you don’t already have initial knowledge about Git.
 - [Git commit message conventions](https://cbea.ms/git-commit/#seven-rules) – a blog post on writing better commit messages
   - [Atomic commits](https://www.freshconsulting.com/insights/blog/atomic-commits/) – a blog post on keeping commits related to one change only, a.k.a. atomic
-- [deploy-to-neocities](https://deploy-to-neocities.neocities.org/) – Quick setup to automatically deploy your changes to Neocities using a GitHub workflow
+- [**deploy-to-neocities**](https://deploy-to-neocities.neocities.org/) – Quick setup to automatically deploy your changes to Neocities using a GitHub workflow
 
 ## CSS
 
-- [The CSS Cascade](https://2019.wattenberger.com/blog/css-cascade) – Learn about the cascade of CSS, i.e., why you don’t need to use `!important` to make your CSS work
+- [**The CSS Cascade**](https://2019.wattenberger.com/blog/css-cascade) – Learn about the cascade of CSS, i.e., why you don’t need to use `!important` to make your CSS work
 - [Specialized CSS frameworks](https://github.com/troxler/awesome-css-frameworks#specialized) – Cool CSS stylesheets/libraries! Some of these emulate interfaces (Windows 98, XP, 7, BIOS / MS–DOS, NES, etc.)
   - I use [Tufte CSS](https://edwardtufte.github.io/tufte-css/) as a base for this website
   - Related: [athena](https://github.com/apas/athena/tree/master) – minimalist static blog generator based on Flask, Pandoc, and Tufte CSS
-- [Common Layouts using CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout) – MDN Docs takes you step by step on how to build some common website layouts using CSS Grid
+- [**Common Layouts using CSS Grid**](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Realizing_common_layouts_using_CSS_Grid_Layout) – MDN Docs takes you step by step on how to build some common website layouts using CSS Grid
 - [csslayouts.io](https://csslayout.io/) – Pre–made CSS layouts for common web components
 - [Responsive Templates (w3.css)](https://www.w3schools.com/w3css/w3css_templates.asp) – Free responsive CSS templates from ol’ reliable W3 Schools
 - [Codrops Playground](https://tympanus.net/codrops/category/playground/) – Demos of some cool web designs and animations
