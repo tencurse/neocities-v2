@@ -363,10 +363,12 @@ h2 + .header-anchor {
 
 .log-rating {
   order: 3;
+  font-size: 1.5em;
 }
 
 .log-icon {
   order: 4;
+  font-size: 1.25em;
 }
 
 .log-title {
@@ -375,6 +377,7 @@ h2 + .header-anchor {
 
 .log-dir {
   font-size: 0.85em;
+  display: inline-block;
 }
 
 @media only screen and (min-width: 500px) {

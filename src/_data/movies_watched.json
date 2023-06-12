@@ -1,5 +1,21 @@
 [
   {
+    "Title": "D.E.B.S.",
+    "Directors": ["Angela Robinson"],
+    "Rating": 4,
+    "Genres": ["Action", "Comedy", "Romance"],
+    "Year": 2004,
+    "DateWatched": "2023-06-11"
+  },
+  {
+    "Title": "Fast X",
+    "Directors": ["Louis Leterrier"],
+    "Rating": 3.5,
+    "Genres": ["Thriller", "Action", "Crime"],
+    "Year": 2023,
+    "DateWatched": "2023-06-11"
+  },
+  {
     "Title": "Girl, Interrupted",
     "Directors": ["James Mangold"],
     "Rating": 4.5,

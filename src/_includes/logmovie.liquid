@@ -1,4 +1,5 @@
 {% if movies_watched %}
+
 <ul class="log">
   {% for movie in movies_watched %}
   {% assign directors = movie.Directors %}
@@ -9,7 +10,7 @@
         }}{% if dir != directors.last %}, {%endif%}{% endfor %}</span></span> <span class="log-icon">{% if movie.Rewatch
       %}↻{%
       endif %} {% if movie.Favourite %}♡{% endif %}</span>
-    <span class="log-rating">{{ movie.Rating }}/5</span>
+    <span class="log-rating">{% renderStar movie.Rating %}</span>
   </li>
   {% endfor %}
 </ul>
