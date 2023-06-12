@@ -16,7 +16,9 @@ layout: mainpage.njk
   ￣￣￣￣￣￣  
 </pre>
 
-Howdy! I’m **Kirsten (she/her)**. Software developer by day, fiction writer by night. I play the bass guitar as a hobby, largely inspired by Mitski and Arctic Monkeys. I love Linux systems and how endlessly customizable they are. I enjoy playing video games and watching people play video games.
+Howdy! I’m **Kirsten (she/her)**. Software developer by day, fiction writer by night.
+
+I play the bass guitar as a hobby, largely inspired by Mitski and Arctic Monkeys. I love Linux systems and how endlessly customizable they are. I enjoy playing video games and watching people play video games.
 
 **I’m a proponent of open source software and the ad–free web.** Use Mozilla Firefox, install adblock of your choice, install SponsorBlock for YouTube. Support open source software and independent creators whenever you can. Dual–boot Linux, or throw away Windows altogether.{% footnoteNum %}{% footnote "It’s not always the easiest (or even practical) in a capitalist world like this one. But we do our best." %}
 

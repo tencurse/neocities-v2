@@ -20,7 +20,7 @@ tag: home
 
 Howdy! I'm **Kirsten (she/her)**. Software developer by day, fiction writer by night.
 
-I hope to create my own little digital garden{% footnoteNum %}{% footnote "Not to be confused with the [note–taking term](https://github.com/MaggieAppleton/digital-gardeners#what-is-digital-gardening) or [Zettelkasten](https://zettelkasten.de/posts/overview/), but in the future it may evolve to that!" %}, planted with my [thoughts](/blog) and my [works](/projects).
+This is my own little digital garden{% footnoteNum %}{% footnote "Not to be confused with the [note–taking term](https://github.com/MaggieAppleton/digital-gardeners#what-is-digital-gardening) or [Zettelkasten](https://zettelkasten.de/posts/overview/), but in the future it may evolve to that!" %}, planted with my [thoughts](/blog) and my [works](/projects).
 
 Here's a [map](/sitemap), go forth and explore!
 
