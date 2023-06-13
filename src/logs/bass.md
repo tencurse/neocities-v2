@@ -4,6 +4,8 @@ dir: logs/bass
 layout: mainpage.njk
 ---
 
+## Songs I can play
+
 This is where I keep track of songs I learned to play on the bass: (from first learned to latest)
 - *Francis Forever* by Mitski
 - *First Love/Late Spring* by Mitski
@@ -15,7 +17,9 @@ This is where I keep track of songs I learned to play on the bass: (from first l
 - *Lovefool* by The Cardigans
 - *Body of Years* by Mother Mother
 - *New Invention* by I DONT KNOW HOW BUT THEY FOUND ME
-- *Other Side* by Red Hot Chili Peppers
+- *Otherside* by Red Hot Chili Peppers
 - *Dance Little Liar* by Arctic Monkeys
 
-When I learn any new songs, I'll log them here by date!
+## Songs I am learning
+
+- *Fluorescent Adolescent* by Arctic Monkeys
