@@ -42,7 +42,7 @@ What am I doing [now](/now)?
 
 This mobile–friendly site is handcrafted using 11ty for Firefox browsers. The aesthetic is inspired by Linux systems and the terminal.
 
-See the source code on [Github](https://github.com/tencurse/neocities){% footnoteNum %}{% footnote "Feel free to contribute or leave feedback!" %}. Everyone copy–pastes code, I assure you, but if you do, please take the time to learn what you are copy–pasting. Arm yourself with knowledge.
+See the source code on [Github](https://github.com/tencurse/neocities).{% footnoteNum %}{% footnote "Feel free to contribute or leave feedback!" %} Everyone copy–pastes code, I assure you, but if you do, please take the time to learn what you are copy–pasting. Arm yourself with knowledge.
 
 ### Site credits
 
