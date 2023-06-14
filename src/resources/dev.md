@@ -41,6 +41,7 @@ If you write code, you _must_ use version control of some kind. [Git](https://gi
 - [csslayouts.io](https://csslayout.io/) – Pre–made CSS layouts for common web components
 - [Responsive Templates (w3.css)](https://www.w3schools.com/w3css/w3css_templates.asp) – Free responsive CSS templates from ol’ reliable W3 Schools
 - [Codrops Playground](https://tympanus.net/codrops/category/playground/) – Demos of some cool web designs and animations
+- [SmolCSS](https://smolcss.dev/) – minimal snippets for modern CSS layouts and components
 
 ## Accessibility
 
