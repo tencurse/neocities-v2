@@ -41,12 +41,22 @@ If you write code, you _must_ use version control of some kind. [Git](https://gi
 - [csslayouts.io](https://csslayout.io/) – Pre–made CSS layouts for common web components
 - [Responsive Templates (w3.css)](https://www.w3schools.com/w3css/w3css_templates.asp) – Free responsive CSS templates from ol’ reliable W3 Schools
 - [Codrops Playground](https://tympanus.net/codrops/category/playground/) – Demos of some cool web designs and animations
+- [SmolCSS](https://smolcss.dev/) – minimal snippets for modern CSS layouts and components
 
 ## Accessibility
 
 - [A Field Guide to Accessibility](https://theultimatemotherfuckingwebsite.com/) – A great guide on accessibility
 - [WAVE Web Accessibility Tool](https://wave.webaim.org/) – This scans your website for any accessibility problems and how to fix them
 - [Randoma11y](https://randoma11y.com) – Generate accessible colour schemes
+- [caniuse.com](https://caniuse.com/) – Check browser compatibility for HTML/CSS/JS features
+- [whocanuse.com](https://www.whocanuse.com/) – caniuse but for accessible colours
+
+## Code editors
+
+- [VS Code](https://code.visualstudio.com/) – free open source IDE with lots of useful extensions
+- [VSCodium](https://vscodium.com/) – a community–driven, free–licensed distribution of VS Code for the Microsoft haters
+- [neovim](https://neovim.io/) – hyperextensible vim–based text editor
+- [Brackets](https://brackets.io/) – text editor built for web designers and front–end developers
 
 ## Best practices
 

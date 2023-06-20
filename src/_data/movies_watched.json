@@ -1,5 +1,13 @@
 [
   {
+    "Title": "Extraction 2",
+    "Directors": ["Sam Hargrave"],
+    "Rating": 3,
+    "Genres": ["Action", "Thriller"],
+    "Year": 2023,
+    "DateWatched": "2023-06-18"
+  },
+  {
     "Title": "D.E.B.S.",
     "Directors": ["Angela Robinson"],
     "Rating": 4,
