@@ -27,7 +27,7 @@ What am I doing [now](/now)?
   <div class="fetch-box">
     <table class="fetch">
       <tr>
-        <td class="fetch">cbox/guestbk</td>
+        <td class="fetch">cbox</td>
         <td><a href="/comms">/comms</a></td>
       </tr>
       <tr>
@@ -35,7 +35,7 @@ What am I doing [now](/now)?
         <td>10kph@pm.me</td>
       </tr>
       <tr>
-        <td class="fetch">neocities</td>
+        <td class="fetch">neocty</td>
         <td><a href="https://neocities.org/site/10kp">@10kph</a></td>
       </tr>
     </table>
@@ -50,7 +50,7 @@ What am I doing [now](/now)?
   <div class="fetch-box">
     <table class="fetch">
       <tr>
-        <td class="fetch">tmblr</td>
+        <td class="fetch">tumblr</td>
         <td><a href="https://femslashes.tumblr.com/" rel="me">@femslashes</a></td>
       </tr>
       <tr>
@@ -58,11 +58,11 @@ What am I doing [now](/now)?
         <td><a href="https://twitter.com/10kph" rel="me">@10kph</a></td>
       </tr>
       <tr>
-        <td class="fetch">fediverse1&nbsp;&nbsp;</td>
+        <td class="fetch">fedi1</td>
         <td><a rel="me" href="https://tech.lgbt/@kirsten">@kirsten@tech.lgbt</a></td>
       </tr>
       <tr>
-        <td class="fetch">fediverse2</td>
+        <td class="fetch">fedi2</td>
         <td><a rel="me" href="https://fandom.ink/@kirsten">@kirsten@fandom.ink</a></td>
       </tr>
       <tr>

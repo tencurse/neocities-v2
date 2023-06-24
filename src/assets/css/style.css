@@ -608,7 +608,9 @@ mark {
     margin: 1rem auto;
   }
 
-
+  section section.terminal.navbox {
+    margin-top: 0em;
+  }
 
   section.content {
     padding: 0;
