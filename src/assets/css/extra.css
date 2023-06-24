@@ -132,6 +132,14 @@ button.dir2::after {
   z-index: -1;
 }
 
+@media screen and (max-width: 360px) {
+  button.dir2 {
+    display: block;
+    margin-left:0px;
+    padding: 0 10px 0 5px;
+  }
+}
+
 
 /* ASCII FETCH */
 .fetch-box {
@@ -175,6 +183,12 @@ td.fetch {
   font-weight: 600;
   padding-right: 0.6em;
   line-height: 1.3;
+}
+
+@media screen and (max-width: 360px) {
+  table.fetch {
+    padding: 0;
+  }
 }
 
 /* FIC POSTS */
@@ -332,6 +346,12 @@ a[href].header-anchor:focus,
 
 h2 + .header-anchor {
   font-size: 1.5em;
+}
+
+@media screen and (max-width: 360px) {
+  .header-anchor {
+    display: none;
+  }
 }
 
 /* MEDIA LOG */

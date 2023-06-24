@@ -23,7 +23,7 @@ dir: resources/dev
 
 If you write code, you _must_ use version control of some kind. [Git](https://git-scm.com/) is the most common one, but [there are others as well](https://en.wikipedia.org/wiki/List_of_version-control_software).
 
-> Git is not the same thing as GitHub. Git is the version control system, while GitHub is where you may remotely host your repository. There are other options, like GitLab or Codeberg. Using GitHub/GitLab/Codeberg is completely optional.
+{% aside "" "<p><strong>Note:</strong> Git is not the same thing as GitHub. Git is the version control system, while GitHub is where you may remotely host your repository. There are other options, like GitLab or Codeberg. Using GitHub/GitLab/Codeberg is completely optional.</p>" %}
 
 - [Git Tutorial from W3 Schools](https://www.w3schools.com/git/git_intro.asp?remote=github) – I haven’t personally used this tutorial, but it might be helpful if you have no idea what Git version control is.
 - [Learn Git Branching](https://learngitbranching.js.org/) – Interactive tutorial for Git branching. Fun to use, but not for you if you don’t already have initial knowledge about Git.

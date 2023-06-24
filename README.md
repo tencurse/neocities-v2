@@ -34,3 +34,9 @@ If you'd like to get the generated static site, run `npm build`. The files will 
 Found a bug? Any accessibility or design issues? I am open to any and all suggestions! Let me know [here](https://github.com/tencurse/neocities/issues) or email me at 10kph@pm.me
 
 Or [contribute](https://github.com/tencurse/neocities/pulls) to the site.
+
+## License
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
+This means you can modify and redistribute this code, as long as 1) it is not for commercial use, and 2) you distribute it under the same or similar license.
