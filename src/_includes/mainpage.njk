@@ -3,7 +3,6 @@ layout: base.njk
 ---
 
 <article>
-  {% if page.url == '/about/' %}{% include 'fetch.njk' %}{% endif %}
   <section class="content">
     <h1>~{{ '/'+dir if tag != 'home' }}{{' '+title if tag == 'home'}}</h1>
 
