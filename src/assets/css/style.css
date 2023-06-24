@@ -134,6 +134,11 @@ section.terminal {
   box-shadow: 10px 10px var(--color-black);
 }
 
+section section.terminal {
+  width: 90%;
+  margin: 0 auto;
+}
+
 section.content:not(:last-of-type) {
   border-bottom: 3px dotted var(--color-purple);
 }
@@ -484,6 +489,10 @@ section > table {
   width: 100%;
 }
 
+table:not(.fetch) th {
+  border: var(--color-primary) 1px solid;
+}
+
 div.table-wrapper {
   overflow-x: auto;
 }
@@ -543,6 +552,13 @@ label.sidenote-number {
   width: 50%;
 }
 
+mark {
+  background-color: var(--background-blue);
+  color: var(--color-blue);
+  padding: 0 0.5em;
+  border-radius: 0.25em;
+}
+
 .iframe-wrapper iframe {
   position: absolute;
   top: 0;
@@ -591,6 +607,8 @@ label.sidenote-number {
     width: 90%;
     margin: 1rem auto;
   }
+
+
 
   section.content {
     padding: 0;
