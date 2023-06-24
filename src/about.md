@@ -79,9 +79,11 @@ What am I doing [now](/now)?
 
 > Are you telling me a queer coded this?
 
+{% sidenote '<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.' %}
+
 This mobile–friendly site is handcrafted using 11ty for Firefox browsers. The aesthetic is inspired by Linux systems and the terminal.
 
-See the source code on [Github](https://github.com/tencurse/neocities).{% footnoteNum %}{% footnote "Feel free to contribute or leave feedback!" %} Everyone copy–pastes code, I assure you, but if you do, please take the time to learn what you are copy–pasting. Arm yourself with knowledge.
+See the source code on [Github](https://github.com/tencurse/neocities). Everyone copy–pastes code, I assure you, but if you do, please take the time to learn what you are copy–pasting. Arm yourself with knowledge.
 
 ### Site credits
 
