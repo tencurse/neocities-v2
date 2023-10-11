@@ -34,7 +34,7 @@ What am I doing [now](/now)?
       </tr>
       <tr>
         <td class="fetch">neocty</td>
-        <td><a href="https://neocities.org/site/10kp">@10kph</a></td>
+        <td><a href="https://neocities.org/site/10kph">@10kph</a></td>
       </tr>
     </table>
   </div>
