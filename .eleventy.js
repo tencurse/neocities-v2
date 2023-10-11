@@ -10,6 +10,7 @@ const mdTaskList = require("markdown-it-task-lists");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const externalLinks = require("@sardine/eleventy-plugin-external-links");
 const toc = require("eleventy-plugin-toc");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function (eleventyConfig) {
   let mdOptions = {
@@ -60,6 +61,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPlugin(externalLinks);
   eleventyConfig.addPlugin(toc);
+  eleventyConfig.addPlugin(pluginRss);
 
   eleventyConfig.addFilter("toUTC", function (value) {
     return new Date(value).toLocaleDateString("en-CA", {
