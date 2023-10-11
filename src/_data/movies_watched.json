@@ -1,11 +1,99 @@
 [
   {
+    "Title": "No Hard Feelings",
+    "Directors": ["Gene Stupnitsky"],
+    "Rating": 4,
+    "Genres": ["Comedy", "Romance"],
+    "Year": 2023,
+    "DateWatched": "2023-09-06"
+  },
+  {
+    "Title": "Indiana Jones and the Dial of Destiny",
+    "Directors": ["James Mangold"],
+    "Rating": 3,
+    "Genres": ["Action", "Adventure"],
+    "Year": 2023,
+    "DateWatched": "2023-09-02"
+  },
+  {
+    "Title": "Spider-Man: Across the Spider-Verse",
+    "Directors": ["Joaquim Dos Santos", "Justin K. Thompson", "Kemp Powers"],
+    "Rating": 4,
+    "Genres": ["Action", "Adventure"],
+    "Year": 2023,
+    "DateWatched": "2023-08-08"
+  },
+  {
+    "Title": "Dungeons & Dragons: Honor Among Thieves",
+    "Directors": ["John Francis Daley", "Jonathan Goldstein"],
+    "Rating": 5,
+    "Genres": ["Comedy", "Adventure", "Fantasy"],
+    "Year": 2023,
+    "DateWatched": "2023-08-02",
+    "Favourite": true,
+    "Rewatch": true
+  },
+  {
+    "Title": "Barbie",
+    "Directors": ["Greta Gerwig"],
+    "Rating": 4.5,
+    "Genres": ["Fantasy", "Comedy", "Adventure"],
+    "Year": 2023,
+    "DateWatched": "2023-07-22",
+    "Favourite": true
+  },
+  {
+    "Title": "Pacific Rim",
+    "Directors": ["Guillermo del Toro"],
+    "Rating": 5,
+    "Genres": ["Action", "Science-Fiction", "Adventure"],
+    "Year": 2013,
+    "DateWatched": "2023-07-12",
+    "Rewatch": true,
+    "Favourite": true
+  },
+  {
+    "Title": "Suzume",
+    "Directors": ["Makoto Shinkai"],
+    "Rating": 5,
+    "Genres": ["Adventure", "Drama", "Fantasy"],
+    "Year": 2022,
+    "DateWatched": "2023-07-10",
+    "Rewatch": true
+  },
+  {
+    "Title": "Léon: The Professional",
+    "Directors": ["Luc Besson"],
+    "Rating": 3.5,
+    "Genres": ["Action", "Drama", "Crime"],
+    "Year": 1994,
+    "DateWatched": "2023-06-28"
+  },
+  {
+    "Title": "Brokeback Mountain",
+    "Directors": ["Ang Lee"],
+    "Rating": 5,
+    "Genres": ["Romance", "Drama"],
+    "Year": 2005,
+    "DateWatched": "2023-06-27"
+  },
+  {
     "Title": "Extraction 2",
     "Directors": ["Sam Hargrave"],
     "Rating": 3,
     "Genres": ["Action", "Thriller"],
     "Year": 2023,
     "DateWatched": "2023-06-18"
+  },
+  {
+    "Title": "Saving Face",
+    "Directors": ["Alice Wu"],
+    "Rating": 5,
+    "Genres": ["Drama", "Comedy", "Romance"],
+    "Year": 2004,
+    "DateWatched": "2023-06-13",
+    "Rewatch": true,
+    "Favourite": true
   },
   {
     "Title": "D.E.B.S.",
