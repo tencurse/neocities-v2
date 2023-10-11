@@ -25,4 +25,4 @@ layout: mainpage.njk
   - [/roadmap](/roadmap) :: [/changelog](/changelog)
 - Playing _Baldur's Gate 3_ with no signs of stopping any time soon
 
-Last updated: September 2023
+Last updated: October 2023
